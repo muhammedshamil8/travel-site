@@ -140,6 +140,7 @@
      .display-main {
          position: relative;
          height: 600px;
+         background-color: #2F5A78;
      }
 
      .background-image {

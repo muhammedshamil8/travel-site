@@ -39,9 +39,9 @@
       .icon-plane {
       height: 16px;
       width: 16px;
-      color: rgb(255, 255, 255); /* Change the icon color */
-      text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Add a shadow to the text */
-      background-color: #ffffff;
+      color: rgb(0, 67, 112); /* Change the icon color */
+      /* text-shadow: 2px 2px 4px rgb(196, 4, 4); 
+      background-color: #2e60aa; */
   }
   .nav-section{
     display: flex;
@@ -190,6 +190,7 @@ margin-bottom: 15px;
 overflow-wrap: break-word;
 word-wrap: break-word;
 word-break: break-word;
+text-shadow: 2px 2px 4px rgb(109, 50, 50); 
 
   }
   .mainp-3{
@@ -265,9 +266,11 @@ line-height: 18px;
  .display-main-services h2{
     display: flex;
     justify-content: center;
+    font-weight: 550;
     align-items: center;
      margin-bottom: 30px;
 font-family: 'Roboto Slab', serif;
+text-shadow: 2px 2px 4px rgb(59, 59, 59); 
 
  }
  .display-main-services-grid{
@@ -303,22 +306,27 @@ display: flex;
      padding: 5px;
      border-radius: 20px;
      cursor:cell;
+     color: #fff;
 
 }
 .s-icon-1{
      background-color: rgb(106, 45, 206);
+     color: #fff;
 
 }
 .s-icon-2{
      background-color: rgb(241, 92, 23);
+     color: #fff;
 
 }
 .s-icon-3{
      background-color: rgb(233, 13, 123);
+     color: #fff;
 
 }
 .s-icon-4{
      background-color: rgb(34, 172, 6);
+     color: #fff;
 
 }
 .services-btn-container {
@@ -414,13 +422,13 @@ display: none;
     left: -60px;
 }
 .S-btn-2{
-right: -50px;
+right: -40px;
 }
 .S-btn-3{
     left: -60px;
 }
 .S-btn-4{
-    right: -50px;
+    right: -40px;
 }
 .services-btn p{
     margin-left: 55px;
@@ -453,6 +461,7 @@ margin: 0px;
         transition: color 0.3s;
       }
       .Signup-btn{
-        width: 60px;
+        width: 65px;
       }
+     
 }

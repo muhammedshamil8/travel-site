@@ -1,143 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TripolizCz</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="new.css">
 </head>
-
 <body>
+    <header>
+        <div class="logo">
+            <p>TripolizCz</p>
+            <img src="images/plane.png" class="icon-plane" alt="logo">
+        </div>
+        <nav class="nav-section">
+            <a class="nav" href="#">Destination</a>
+            <a class="nav" href="#">Hotel</a>
+            <a class="nav" href="#">Flights</a>
+            <a class="nav" href="#">Bookings</a>
+        </nav>
+        <div class="user-actions">
+            <button class="login-btn">Login</button>
+            <button class="Signup-btn">Sign up</button>
+            <select id="myselect">
+                <option selected>En</option>
+                <option>Ara</option>
+                <option>Mal</option>
+                <option>Hi</option>
+            </select>
+        </div>
+    </header>
+
     <main>
-        <header>
-            <div class="logo">
-                <p>TripolizCz&nbsp;</p><img src="images/plane.png" class="icon-plane" alt="logo">
-            </div>
-            <div class="nav-section">
-                <a class="nav" href="#">Destination</a>
-                <a class="nav" href="#">Hotel</a>
-                <a class="nav" href="#">Flights</a>
-                <a class="nav" href="#">Bookings</a>
-            </div>
-            <div class="user-actions">
-                <button class="login-btn">Login</button>
-                <button class="Signup-btn">Sign up</button>
-                <select id="myselect">
-                    <option selected>En</option>
-                    <option>Ara</option>
-                    <option>Mal</option>
-                    <option>Hi</option>
-                </select>
-            </div>
-        </header>
-
-        <!-- responsive  -->
-        <header class="header2">
-            <div class="logo">
-                <p>TripolizCz&nbsp;</p><img src="images/plane.png" class="icon-plane">
-            </div>
-            <div class="nav-section">
-                <a class="nav" href="#">Destination</a>
-                <a class="nav" href="#">Hotel</a>
-                <a class="nav" href="#">Flights</a>
-                <a class="nav" href="#">Bookings</a>
-
-                <button class="login-btn">Login</button>
-                <button class="Signup-btn">Sign up</button>
-                <select id="myselect">
-                    <option>En</option>
-                    <option>Ar</option>
-                    <option>Ml</option>
-                    <option>Hi</option>
-                </select>
-            </div>
-        </header>
-        <!--  -->
-        <div class="display-main">
-            <img class="background-image" src="images/bg.jpg" alt="background-image" />
-            <div class="overlay">
-            </div>
+        <section class="display-main">
+            <img class="background-image" src="images/bg.jpg" alt="background-image">
+            <div class="overlay"></div>
             <div class="center-content">
                 <p class="mainp-1">Best Destination around the world</p>
                 <p class="mainp-2">Explore Your World<br> With Us</p>
-                <p class="mainp-3">Trust our serivices.this willunbelivable experience. such a wonderful and amazing
-                    trip. you can enjoy it very well</p>
-
+                <p class="mainp-3">Trust our services. This will be an incredible experience. Such a wonderful and amazing trip. You can enjoy it very well.</p>
                 <button class="main-btn1">Learn More ></button>
                 <div class="search-container">
                     <label class="input-icon" for="myInput">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-search" viewBox="0 0 16 16">
-                            <path
-                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                         </svg>
                     </label>
                     <input type="search" placeholder="Search..." class="main-btn2 form-control" id="myInput">
                 </div>
             </div>
+        </section>
 
-        </div>
-        <div class="display-main-services">
-            <h2>We Offer Best services</h2>
-            <br>
+        <section class="display-main-services">
+            <h2>We Offer Best Services</h2>
             <div class="display-main-services-grid">
                 <div class="services-btn-container S-btn-1">
                     <button class="services-btn">
                         <span class="services-icon-container">
-                            <img class="services-icon s-icon-1" src="images/hotel.png"></span>
-
+                            <img class="services-icon s-icon-1" src="images/hotel.png" alt="Hotel Icon">
+                        </span>
                         <p><b>Accommodation</b></p>
-                        <p><small> Best accommodation facilities</small></p>
+                        <p><small>Best accommodation facilities</small></p>
                     </button>
                 </div>
                 <div class="services-btn-container S-btn-2">
                     <button class="services-btn">
-
                         <span class="services-icon-container">
-                            <img class="services-icon s-icon-2" src="images/map.png">
+                            <img class="services-icon s-icon-2" src="images/map.png" alt="Map Icon">
                         </span>
                         <p><b>Local Event</b></p>
-                        <p><small> Engrossed listerning.park gate sell they weat</small></p>
+                        <p><small>Engrossed listening, park gate sell they wear</small></p>
                     </button>
                 </div>
                 <div class="services-btn-container S-btn-3">
                     <button class="services-btn">
-
                         <span class="services-icon-container">
-                            <img class="services-icon s-icon-3" src="images/mountain.png">
+                            <img class="services-icon s-icon-3" src="images/mountain.png" alt="Mountain Icon">
                         </span>
-                        <p><b>Advature Tour</b></p>
-                        <p><small> advantures and other activities</small></p>
+                        <p><b>Adventure Tour</b></p>
+                        <p><small>Adventures and other activities</small></p>
                     </button>
                 </div>
                 <div class="services-btn-container S-btn-4">
                     <button class="services-btn">
-
                         <span class="services-icon-container">
-                            <img class="services-icon s-icon-4" src="images/aroplane.png">
+                            <img class="services-icon s-icon-4" src="images/aroplane.png" alt="Airplane Icon">
                         </span>
-                        <p><b>Ariving Best Flights</b></p>
-                        <p><small> conformation</small></p>
+                        <p><b>Arriving Best Flights</b></p>
+                        <p><small>Confirmation</small></p>
                     </button>
                 </div>
-
             </div>
-        </div>
+        </section>
+        <section>
+            <div class="new">
+Dayyan waiting for you !
+            </div>
+        </section>
     </main>
-    <script>
 
-    </script>
+    <!-- Responsive styles -->
+    <header class="header2">
+        <div class="logo">
+            <p>TripolizCz</p>
+            <img src="images/plane.png" class="icon-plane" alt="logo">
+        </div>
+        <nav class="nav-section">
+            <a class="nav" href="#">Destination</a>
+            <a class="nav" href="#">Hotel</a>
+            <a class="nav" href="#">Flights</a>
+            <a class="nav" href="#">Bookings</a>
+            <button class="login-btn">Login</button>
+            <button class="Signup-btn">Sign up</button>
+            <select id="myselect">
+                <option>En</option>
+                <option>Ar</option>
+                <option>Ml</option>
+                <option>Hi</option>
+            </select>
+        </nav>
+    </header>
 </body>
-
 </html>

@@ -301,7 +301,7 @@
          /* Center items horizontally */
          align-content: center;
          /* Center items vertically */
-         /* column-gap: 130px; */
+         /* column-gap: 30px; */
          row-gap: 30px;
      }
 
@@ -475,7 +475,7 @@ display: flex;
          }
 
          .S-btn-2 {
-             right: -30px;
+             left: 40px;
          }
 
          .S-btn-3 {
@@ -483,7 +483,7 @@ display: flex;
          }
 
          .S-btn-4 {
-             right: -30px;
+            left: 40px;
          }
 
          .services-btn p {

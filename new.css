@@ -487,7 +487,7 @@ display: flex;
 
          .services-btn-container {
              /* background-color: red; */
-             padding-left: 120px;
+             padding-left: 150px;
              /* padding-top:50px ; */
          }
 
@@ -504,7 +504,7 @@ display: flex;
          }
 
          .S-btn-1 {
-             left: -60px;
+             left: -80px;
          }
 
          /* .S-btn-2 {

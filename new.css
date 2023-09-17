@@ -457,10 +457,14 @@ display: flex;
              column-gap: 130px;
              row-gap: 30px;
          }
-
+.services-btn-container{
+   background-color: red;
+   padding-left:85px ;
+   /* padding-top:50px ; */
+}
          .services-btn {
              padding: 10px;
-             width: 250px;
+             /* width: 250px; */
              text-align: start;
              border: none;
              border-radius: 50px;
@@ -471,20 +475,20 @@ display: flex;
          }
 
          .S-btn-1 {
-             left: -60px;
+             left: -80px;
          }
 
-         .S-btn-2 {
-             left: 40px;
-         }
+         /* .S-btn-2 {
+            left: 10px;
+         } */
 
          .S-btn-3 {
-             left: -60px;
+             left: -80px;
          }
 
-         .S-btn-4 {
-            left: 40px;
-         }
+         /* .S-btn-4 {
+            right: 0px;
+         } */
 
          .services-btn p {
              margin-left: 55px;

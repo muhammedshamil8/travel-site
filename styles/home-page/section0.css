@@ -1,0 +1,45 @@
+.service-things {
+     /* background-color: red; */
+     /* height: 50px; */
+     /* margin-top: 20px; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     z-index: 1;
+
+}
+
+.service-things-card {
+     background: rgb(0, 207, 235);
+     padding: 5px;
+     border-radius: 8px;
+
+}
+
+.service-things-btn {
+     border: none;
+     color: white;
+     background: rgb(0, 207, 235);
+     padding: 5px;
+     border-radius: 8px;
+     width: 80px;
+
+}
+
+.service-things-btn:hover {
+     border: none;
+     color: rgb(0, 207, 235);
+     background: rgb(255, 255, 255);
+
+}
+
+.service-things-btn img {
+     height: 30px;
+     width: 30px;
+     color: black;
+}
+
+.service-things-btn p {
+     font-size: 12px;
+     margin-top: 5px;
+}

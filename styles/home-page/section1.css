@@ -153,10 +153,10 @@
      align-items: center;
      margin-bottom: 30px;
      font-family: 'Roboto Slab', serif;
-     text-shadow: 2px 2px 4px rgb(59, 59, 59);
+     /* text-shadow: 2px 2px 4px rgb(59, 59, 59); */
      text-transform: capitalize;
      margin-bottom: 10px;
-     font-weight: 800;
+     font-weight: 600;
      font-size: 35px;
      letter-spacing: 1px;
      word-spacing: 5px;
@@ -292,7 +292,16 @@
      .services-btn p {
          margin-left: 55px;
      }
-
+     .display-main-services h2 {
+        font-family: 'Roboto Slab', serif;
+        text-shadow: none;
+        font-weight: 550;
+        font-size: 30px;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+        
+   
+    }
 
  }
  

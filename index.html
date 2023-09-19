@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/styles/home-page/index.css">
     <link rel="stylesheet" href="/styles/home-page/header.css">
     <link rel="stylesheet" href="/styles/home-page/section1.css">
+    <link rel="stylesheet" href="/styles/home-page/section0.css">
     <link rel="stylesheet" href="/styles/home-page/section2.css">
     <link rel="stylesheet" href="/styles/home-page/section3.css">
     <link rel="stylesheet" href="/styles/home-page/section4.css">
@@ -47,6 +48,7 @@
     </header>
     <!-- main body of the page  -->
     <main>
+      
         <!-- section 1 background image included part -->
         <section class="display-main">
             <img class="background-image" src="images/bg.jpg" alt="background-image">
@@ -69,6 +71,48 @@
                 </div>
             </div>
         </section>
+        <section class="service-things">
+            <div class="service-things-card">
+                <button class="service-things-btn">
+                    <img src="images/Groupmoney.png" alt="icon">
+                    <p>Destinations</p>
+                </button>
+                <button class="service-things-btn">
+                    <img src="images/Groupmoney.png" alt="icon">
+                    <p>Hotel</p>
+                </button>
+                <button onclick="processing();" class="service-things-btn">
+                    <img src="images/Groupmoney.png" alt="icon">
+                    <p>Cabs</p>
+                </button>
+            </div>
+            
+        </section>
+<!-- section 2 destinations part -->
+<section id="Destination">
+    <div class="package-head">
+        <h2>top Destinations for you.</h2>
+        <p>Explore to destination</p>
+    </div>
+    <!-- <div class=".package-card-grid-parent-flex"> -->
+    <div class="package-card-grid-parent">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+
+        <ul class="package-card-grid js-package-grid">
+
+
+        </ul>
+
+
+
+        <i id="right" class="fa-solid fa-angle-right"></i>
+
+    </div>
+    <!-- </div> -->
+
+</section>
+
+<!-- styles on section 1css  -->
         <section class="display-main-services">
             <h2>We Offer Best Services</h2>
             <div class="display-main-services-grid">
@@ -110,32 +154,11 @@
                 </div>
             </div>
         </section>
-        <!-- section 2 destinations part -->
-        <section id="Destination">
-            <div class="package-head">
-                <h2>top Destinations for you.</h2>
-                <p>Explore to destination</p>
-            </div>
-            <!-- <div class=".package-card-grid-parent-flex"> -->
-            <div class="package-card-grid-parent">
-                <i id="left" class="fa-solid fa-angle-left"></i>
-
-                <ul class="package-card-grid js-package-grid">
-
-
-                </ul>
-
-
-
-                <i id="right" class="fa-solid fa-angle-right"></i>
-
-            </div>
-            <!-- </div> -->
-
-        </section>
+        
         <!-- section 3 things to do part -->
         <section id="things-to-do">
             <div class="things-to-do-head-child">
+                <div class="things-to-do-head-parent-dad">
                 <div class="things-to-do-head-parent">
 
                     <div class="things-to-do-head">
@@ -144,10 +167,11 @@
                             afford</p>
                     </div>
                     <div class="things-to-do-logo">
-                        <img src="" alt="logo">
+                        <img src="images/Element.png" alt="logo" class="things-to-do-img-element">
 
                     </div>
                 </div>
+            </div>
             </div>
             <div class="things-to-do-card-grid">
                 <div class="things-to-do-card">
@@ -190,88 +214,8 @@
             </div>
             <div class="experience-card-grid-parent">
 
-                <ul class="experience-card-grid">
-                    <li class="experience-card">
-                        <div class="experience-card-logo">
-                            <img src="images/login.jpeg" alt="profile-pic">
-                        </div>
-                        <div class="experience-card-details">
-                            <p class="review-p-1">
-                                But i must explain to you how all this mistaken idea of denouncing pleasure and praising
-                                pain was born and i will give you a complete account of the system and expound the
-                                actual teachings of the great explorer of the truth, the master-builder of human
-                                happines.
-                            </p>
-                            <P class="review-p-2">
-                                <img src="/images/rating-50.png" alt="ratings">
-                            </P>
-                            <p class="review-p-3">
-                                John Doe<br><span>Accountant</span>
-                            </p>
-
-                        </div>
-                    </li>
-                    <li class="experience-card">
-                        <div class="experience-card-logo">
-                            <img src="images/login.jpeg" alt="profile-pic">
-                        </div>
-                        <div class="experience-card-details">
-                            <p class="review-p-1">
-                                But i must explain to you how all this mistaken idea of denouncing pleasure and praising
-                                pain was born and i will give you a complete account of the system and expound the
-                                actual teachings of the great explorer of the truth, the master-builder of human
-                                happines.
-                            </p>
-                            <P class="review-p-2">
-                                <img src="/images/rating-50.png" alt="ratings">
-                            </P>
-                            <p class="review-p-3">
-                                John Doe<br><span>Accountant</span>
-                            </p>
-
-                        </div>
-                    </li>
-                    <li class="experience-card">
-                        <div class="experience-card-logo">
-                            <img src="images/login.jpeg" alt="profile-pic">
-                        </div>
-                        <div class="experience-card-details">
-                            <p class="review-p-1">
-                                But i must explain to you how all this mistaken idea of denouncing pleasure and praising
-                                pain was born and i will give you a complete account of the system and expound the
-                                actual teachings of the great explorer of the truth, the master-builder of human
-                                happines.
-                            </p>
-                            <P class="review-p-2">
-                                <img src="/images/rating-50.png" alt="ratings">
-                            </P>
-                            <p class="review-p-3">
-                                John Doe<br><span>Accountant</span>
-                            </p>
-
-                        </div>
-                    </li>
-                    <li class="experience-card">
-                        <div class="experience-card-logo">
-                            <img src="images/login.jpeg" alt="profile-pic">
-                        </div>
-                        <div class="experience-card-details">
-                            <p class="review-p-1">
-                                But i must explain to you how all this mistaken idea of denouncing pleasure and praising
-                                pain was born and i will give you a complete account of the system and expound the
-                                actual teachings of the great explorer of the truth, the master-builder of human
-                                happines.
-                            </p>
-                            <P class="review-p-2">
-                                <img src="/images/rating-50.png" alt="ratings">
-                            </P>
-                            <p class="review-p-3">
-                                John Doe<br><span>Accountant</span>
-                            </p>
-
-                        </div>
-                    </li>
-
+                <ul class="experience-card-grid js-experience-grid">
+                   
                 </ul>
 
                 <i id="left" class="fa-solid fa-angle-left left-i"></i>
@@ -396,6 +340,7 @@
         }
     </script>
     <script src="scripts/data/package.js"></script>
+    <script src="scripts/data/review.js"></script>
     <script src="scripts/index.js"></script>
 </body>
 

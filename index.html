@@ -11,19 +11,22 @@
 <body>
     <!-- header of the page -->
     <header>
-        <div class="logo">
-            <p>TripolizCz</p>
-            <img src="images/plane.png" class="icon-plane" alt="logo">
-        </div>
+        <a href="#">
+            <div class="logo">
+
+                <p>TripolizCz</p>
+                <img src="images/plane.png" class="icon-plane" alt="logo">
+            </div>
+        </a>
         <nav class="nav-section">
-            <a class="nav" href="#">Destination</a>
-            <a class="nav" href="#">Hotel</a>
-            <a class="nav" href="#">Flights</a>
-            <a class="nav" href="#">Bookings</a>
+            <a class="nav" href="#Destination">Destination</a>
+            <a class="nav" onclick="processing();">Hotel</a>
+            <a class="nav" onclick="processing();">Flights</a>
+            <a class="nav" onclick="processing();">Bookings</a>
         </nav>
         <div class="user-actions">
-            <button class="login-btn">Login</button>
-            <button class="Signup-btn">Sign up</button>
+            <button class="login-btn" onclick="processing();">Login</button>
+            <button class="Signup-btn" onclick="processing();">Sign up</button>
             <select id="myselect">
                 <option selected>En</option>
                 <option>Ara</option>
@@ -43,9 +46,9 @@
                 <p class="mainp-2">Explore Your World<br> With Us</p>
                 <p class="mainp-3">Trust our services. This will be an incredible experience. Such a wonderful and
                     amazing trip. You can enjoy it very well.</p>
-                <button class="main-btn1">Learn More ></button>
+                <button class="main-btn1" onclick="processing();">Learn More ></button>
                 <div class="search-container">
-                    <label class="input-icon" for="myInput">
+                    <label class="input-icon" for="myInput" onclick="processing();">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-search" viewBox="0 0 16 16">
                             <path
@@ -105,7 +108,7 @@
                 <p>Explore to destination</p>
             </div>
             <div class="package-card-grid-parent">
-                <button> &lt;</button>
+                <button onclick="processing();"> &lt;</button>
 
                 <div class="package-card-grid">
                     <div class="package-card">
@@ -119,7 +122,7 @@
                                 and then there is this heavenly tourist <br>
                                 destionation called Alappuzha or Alleppey!</p>
                             <div class="package-details-bottom">
-                                <button>Details $</button>
+                                <button onclick="processing();">Details $</button>
                                 <p><span class="span1">2500 Rs </span><span class="span2"> /per person</span></p>
                             </div>
 
@@ -136,7 +139,7 @@
                                 Wayanad truly deserves a top rank in the <br>
                                 list of places to visit in kerala.</p>
                             <div class="package-details-bottom">
-                                <button>Details $</button>
+                                <button onclick="processing();">Details $</button>
                                 <p><span class="span1">2000 Rs </span><span class="span2"> /per person</span></p>
                             </div>
 
@@ -153,7 +156,7 @@
                                 blended with<br>
                                 cultural vlaues and modern ideas!</p>
                             <div class="package-details-bottom">
-                                <button>Details $</button>
+                                <button onclick="processing();">Details $</button>
                                 <p><span class="span1">3000 Rs </span><span class="span2"> /per person</span></p>
                             </div>
 
@@ -164,7 +167,7 @@
 
 
 
-                <button>&gt;</button>
+                <button onclick="processing();">&gt;</button>
             </div>
 
         </section>
@@ -293,8 +296,8 @@
 
             </div>
             <div class="experience-card-button">
-                <button>&lt;</button>
-                <button>&gt;</button>
+                <button onclick="processing();">&lt;</button>
+                <button onclick="processing();">&gt;</button>
             </div>
 
         </section>
@@ -302,91 +305,94 @@
         <footer>
 
             <div class="footer-card">
-            <div class="footer-card-blur">
+                <div class="footer-card-blur">
 
-                <div class="footer-card-grid">
-                    <div class="footer-head-grid">
-                        <div class="footer-head">
-                            <p>Prepare yourself to be a part of exploration of</p>
-                            <h2>The Beauty of kerala.</h2>
-                        </div>
-                        <div class="footer-button">
-                            <button class="signin-footer">sign in</button>
-                            <button class="signup-footer">sign up</button>
-                        </div>
-                    </div>
-                    <div class="footer-main">
-                        <div class="footer-contact">
-                            <!-- <div class="footer-contact2"> -->
-                            <h2>TripolizCz
-                                <img src="images/plane.png" class="icon-plane-footer" alt="logo">
-                            </h2>
-                            <p>Book your trip in minute, get full</p>
-                            <p>control for much longer.</p>
-                            <div>
-                                <img class="icon" src="" alt="f">
-                                <img class="icon" src="" alt="i">
-                                <img class="icon" src="" alt="l">
-
+                    <div class="footer-card-grid">
+                        <div class="footer-head-grid">
+                            <div class="footer-head">
+                                <p>Prepare yourself to be a part of exploration of</p>
+                                <h2>The Beauty of kerala.</h2>
+                            </div>
+                            <div class="footer-button">
+                                <button class="signin-footer" onclick="processing();">sign in</button>
+                                <button class="signup-footer" onclick="processing();">sign up</button>
                             </div>
                         </div>
-                        <!-- </div> -->
-                        <div class="footer-details">
-                            <table class="footer-table">
-                                <tr>
-                                    <th>Company</th>
-                                    <th>Contact</th>
-                                    <th>More</th>
+                        <div class="footer-main">
+                            <div class="footer-contact">
+                                <!-- <div class="footer-contact2"> -->
+                                <h2>TripolizCz
+                                    <img src="images/plane.png" class="icon-plane-footer" alt="logo">
+                                </h2>
+                                <p>Book your trip in minute, get full</p>
+                                <p>control for much longer.</p>
+                                <div>
+                                    <img class="icon" src="" alt="f" onclick="processing();">
+                                    <img class="icon" src="" alt="i" onclick="processing();">
+                                    <img class="icon" src="" alt="l" onclick="processing();">
+
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                            <div class="footer-details">
+                                <table class="footer-table" onclick="processing();">
+                                    <tr>
+                                        <th>Company</th>
+                                        <th>Contact</th>
+                                        <th>More</th>
 
 
-                                </tr>
-                                <td>About</td>
-                                <td>Help/FAQ</td>
-                                <td>Press centre</td>
+                                    </tr>
+                                    <td>About</td>
+                                    <td>Help/FAQ</td>
+                                    <td>Press centre</td>
 
 
-                                </tr>
-                                <tr>
+                                    </tr>
+                                    <tr>
 
-                                    <td>careers</td>
-                                    <td>Press</td>
-                                    <td>OurBlog</td>
+                                        <td>careers</td>
+                                        <td>Press</td>
+                                        <td>OurBlog</td>
 
 
-                                </tr>
-                                <tr>
-                                    <td>logistic</td>
-                                    <td>Afflilates</td>
+                                    </tr>
+                                    <tr>
+                                        <td>logistic</td>
+                                        <td>Afflilates</td>
 
-                                    <td>Low fare tips</td>
-                                </tr>
-                                <tr>
-                                    <td>Privacy & Policy</td>
+                                        <td>Low fare tips</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Privacy & Policy</td>
 
-                                </tr>
+                                    </tr>
 
-                            </table>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </footer>
     </main>
 
     <!-- Responsive styles for header -->
     <header class="header2">
-        <div class="logo">
-            <p>TripolizCz</p>
-            <img src="images/plane.png" class="icon-plane" alt="logo">
-        </div>
+        <a href="#">
+
+            <div class="logo">
+                <p>TripolizCz</p>
+                <img src="images/plane.png" class="icon-plane" alt="logo">
+            </div>
+        </a>
         <nav class="nav-section">
-            <a class="nav" href="#">Destination</a>
-            <a class="nav" href="#">Hotel</a>
-            <a class="nav" href="#">Flights</a>
-            <a class="nav" href="#">Bookings</a>
-            <button class="login-btn">Login</button>
-            <button class="Signup-btn">Sign up</button>
+            <a class="nav" href="#Destination">Destination</a>
+            <a class="nav" onclick="processing();">Hotel</a>
+            <a class="nav" onclick="processing();">Flights</a>
+            <a class="nav" onclick="processing();">Bookings</a>
+            <button class="login-btn" onclick="processing();">Login</button>
+            <button class="Signup-btn" onclick="processing();">Sign up</button>
             <select id="myselect">
                 <option>En</option>
                 <option>Ar</option>
@@ -395,6 +401,13 @@
             </select>
         </nav>
     </header>
+    <script>
+        alert('Not compeleted the work \n project designer is to slow "dayyan"')
+        function processing() {
+            alert('On work \n its coming soon')
+            onclick = "processing();"
+        }
+    </script>
 </body>
 
 </html>

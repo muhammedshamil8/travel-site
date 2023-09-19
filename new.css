@@ -3,6 +3,8 @@
          margin: 0;
          padding: 0;
          box-sizing: border-box;
+         font-family: 'Roboto', Arial, sans-serif;
+
      }
 
      body {
@@ -34,6 +36,9 @@
          border-bottom: 1px solid #ddd;
      }
 
+     header a {
+         text-decoration: none;
+     }
 
      .logo {
 
@@ -912,6 +917,10 @@
              position: fixed;
          }
 
+         .header2 a {
+             text-decoration: none;
+         }
+
          .logo {
              display: flex;
              align-items: center;
@@ -995,9 +1004,7 @@
              margin-left: 55px;
          }
 
-         .overlay {
-             bottom: -1px;
-         }
+
 
          .Signup-btn {
              width: 65px;

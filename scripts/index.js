@@ -12,7 +12,7 @@ packages.forEach((package)=>{
          <p>${package.about}</p>
          <div class="package-details-bottom js-btn-${package.id}">
              <button onclick="processing();">Details $</button>
-             <p><span class="span1">${package.priceRupees} Rs </span><span class="span2"> /per person</span></p>
+             <p><span class="span1">$${package.priceRupees} Rs </span><span class="span2"> /per person</span></p>
          </div>
 
      </div>

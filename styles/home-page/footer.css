@@ -1,0 +1,186 @@
+/* footer styles goes here */
+
+
+footer {
+    /* height: 400px; */
+    /* background-color: rgb(23, 226, 209); */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    /* padding: 60px 130px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/Group_610bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-card {
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: rgba(71, 90, 71, 0.226);
+    border-radius: 15px;
+
+    /* display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url('/images/travel5.jpeg');
+     background-size: cover;
+     background-position: center;
+     border-radius: 10px;
+     overflow: hidden;
+     position: relative; */
+
+    padding: 20px;
+
+    /* padding-bottom: 10px;
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px; */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: inset 1px -1px 1px white, inset 0px 1px 1px white;
+
+}
+
+.footer-card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.footer-head-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.footer-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+}
+
+.footer-head p {
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
+
+.footer-head h2 {
+    font-size: 30px;
+    color: white;
+    word-spacing: 5px;
+
+}
+
+.footer-button {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    row-gap: 6px;
+}
+
+.footer-button button {
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    padding: 4px 8px;
+    font-weight: 600;
+}
+
+.signin-footer {
+    background-color: rgb(0, 147, 167);
+    color: white;
+
+}
+
+.signup-footer {
+    color: rgb(0, 147, 167);
+}
+
+.footer-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.footer-contact {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    /* justify-content: baseline; */
+    align-items: left;
+}
+
+.footer-contact h2 {
+    font-size: 15px;
+    display: flex;
+}
+
+.icon-plane-footer {
+    height: 20px;
+    width: 20px;
+}
+
+.footer-contact p {
+    color: #fff;
+    font-size: 11px;
+}
+
+.footer-table {
+    /* display: grid; */
+
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.footer-table td,
+.footer-table th {
+    padding: 8px;
+}
+
+.footer-table td {
+    color: #ddd;
+    font-size: 12px;
+}
+
+.footer-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
+
+@media screen and (max-width:900px) {
+    footer {
+        padding: 60px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 700px;
+
+    }
+
+    .footer-card {
+        padding: 20px;
+        margin: 30px;
+        max-width: 500px;
+
+
+    }
+
+    .footer-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}

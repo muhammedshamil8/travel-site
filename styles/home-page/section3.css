@@ -1,0 +1,134 @@
+/* 
+<!-- section 3 destinations part -->
+*/
+
+
+#things-to-do {
+     margin-bottom: 60px;
+     padding: 0px 15px;
+ }
+
+ .things-to-do-head-parent {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .things-to-do-head {
+     flex-direction: column;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+ }
+
+ .things-to-do-head h2 {
+     margin-bottom: 10px;
+     font-weight: 800;
+     font-size: 35px;
+     letter-spacing: 1px;
+     word-spacing: 5px;
+     /* text-transform: capitalize; */
+
+ }
+
+ .things-to-do-head p {
+     line-height: 17px;
+     font-size: 13px;
+     letter-spacing: 1px;
+     /* word-spacing: 1px; */
+
+ }
+
+ .things-to-do-logo {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     width: 100px;
+ }
+
+ .things-to-do-card-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));  */
+    
+    gap: 15px; 
+    padding: 0px 15px; 
+    justify-content: center;
+    align-items: center;
+ }
+
+ .things-to-do-card {
+     background-color: #ffffff;
+     height: 200px;
+     width: 320px;
+     display: flex;
+     flex-direction: column;
+     row-gap: 22px;
+     padding: 25px;
+     padding-right: 50px;
+     border-radius: 3px;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.23);
+
+
+ }
+
+ .things-card-details-logo {
+     height: 50px;
+     width: 50px;
+     /* background-color: red; */
+ }
+
+ .things-card-details-logo img {
+height: 100%;
+width: 100%;
+ }
+
+ .things-card-details-content {
+     display: flex;
+     flex-direction: column;
+     row-gap: 12px;
+ }
+
+ .things-card-details-content h4 {
+     font-weight: 550;
+ }
+
+ .things-card-details-content p {
+     font-size: 13px;
+     line-height: 20px;
+     color: rgb(90, 90, 90);
+ }
+ @media screen and (max-width: 900px) {
+    .things-to-do-card-grid {
+    grid-template-columns: auto ;
+    row-gap: 20px;
+       
+    }
+    .things-to-do-head h2 {
+        margin-bottom: 10px;
+        font-weight: 800;
+        font-size: 30px;
+        letter-spacing: 1px;
+        word-spacing: 0px;
+        /* text-transform: capitalize; */
+   
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .things-to-do-card-grid {
+        grid-template-columns: auto ;
+        row-gap: 20px;
+           
+        }
+    /* .things-to-do-card-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    } */
+}

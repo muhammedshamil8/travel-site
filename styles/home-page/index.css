@@ -1,0 +1,48 @@
+     /* general   styles for home page*/
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: 'Roboto', Arial, sans-serif;
+
+     }
+     /* * h2{
+        color: red;
+     } */
+
+     body {
+         font-family: 'Roboto', Arial, sans-serif;
+         background-color: #e2e2e2;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-height: 100vh;
+
+         font-size: 16px;
+
+     }
+
+     main {
+         display: grid;
+         grid-template-rows: auto;
+     }
+
+     @media screen and (max-width: 768px) {
+         main {
+             grid-template-rows: auto auto;
+             /* Add more rows as needed */
+             /* overflow-x: hidden; */
+         }
+     }
+
+
+
+     @media screen and (max-width: 768px) {
+         body {
+             font-size: 14px;
+         }
+     }
+
+     /* Adjust font sizes for other elements as needed */

@@ -3,9 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>TripolizCz</title>
-    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="/styles/home-page/index.css">
+    <link rel="stylesheet" href="/styles/home-page/header.css">
+    <link rel="stylesheet" href="/styles/home-page/section1.css">
+    <link rel="stylesheet" href="/styles/home-page/section2.css">
+    <link rel="stylesheet" href="/styles/home-page/section3.css">
+    <link rel="stylesheet" href="/styles/home-page/section4.css">
+    <link rel="stylesheet" href="/styles/home-page/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="scripts/sliderPackage.js" defer></script>
+    <script src="scripts/sliderReview.js" defer></script>
 </head>
 
 <body>
@@ -59,7 +69,6 @@
                 </div>
             </div>
         </section>
-        <!-- section 2 services part -->
         <section class="display-main-services">
             <h2>We Offer Best Services</h2>
             <div class="display-main-services-grid">
@@ -101,77 +110,30 @@
                 </div>
             </div>
         </section>
-        <!-- section 3 destinations part -->
+        <!-- section 2 destinations part -->
         <section id="Destination">
             <div class="package-head">
                 <h2>top Destinations for you.</h2>
                 <p>Explore to destination</p>
             </div>
+            <!-- <div class=".package-card-grid-parent-flex"> -->
             <div class="package-card-grid-parent">
-                <button onclick="processing();"> &lt;</button>
+                <i id="left" class="fa-solid fa-angle-left"></i>
 
-                <div class="package-card-grid">
-                    <div class="package-card">
-                        <div class="package-image">
-                            <img src="/images/travel5.jpeg" alt="package-img-1">
+                <ul class="package-card-grid js-package-grid">
 
-                        </div>
-                        <div class="package-card-details">
-                            <h2>Alleppey</h2>
-                            <p>There is the whole of kerala in one side,<br>
-                                and then there is this heavenly tourist <br>
-                                destionation called Alappuzha or Alleppey!</p>
-                            <div class="package-details-bottom">
-                                <button onclick="processing();">Details $</button>
-                                <p><span class="span1">2500 Rs </span><span class="span2"> /per person</span></p>
-                            </div>
 
-                        </div>
-                    </div>
-                    <div class="package-card">
-                        <div class="package-image">
-                            <img src="" alt="package-img-1">
-
-                        </div>
-                        <div class="package-card-details">
-                            <h2>Wayanad</h2>
-                            <p>Cradled in the lap of the Western Ghats,<br>
-                                Wayanad truly deserves a top rank in the <br>
-                                list of places to visit in kerala.</p>
-                            <div class="package-details-bottom">
-                                <button onclick="processing();">Details $</button>
-                                <p><span class="span1">2000 Rs </span><span class="span2"> /per person</span></p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="package-card">
-                        <div class="package-image">
-                            <img src="" alt="package-img-1">
-
-                        </div>
-                        <div class="package-card-details">
-                            <h2>Kochi</h2>
-                            <p><u>Kochi</u> or cochin is a unique placein <u>God's <br>Own Country</u> that is perfectly
-                                blended with<br>
-                                cultural vlaues and modern ideas!</p>
-                            <div class="package-details-bottom">
-                                <button onclick="processing();">Details $</button>
-                                <p><span class="span1">3000 Rs </span><span class="span2"> /per person</span></p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
+                </ul>
 
 
 
-                <button onclick="processing();">&gt;</button>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+
             </div>
+            <!-- </div> -->
 
         </section>
-        <!-- section 4 things to do part -->
+        <!-- section 3 things to do part -->
         <section id="things-to-do">
             <div class="things-to-do-head-child">
                 <div class="things-to-do-head-parent">
@@ -182,7 +144,7 @@
                             afford</p>
                     </div>
                     <div class="things-to-do-logo">
-                        <img src="ww" alt="logo">
+                        <img src="" alt="logo">
 
                     </div>
                 </div>
@@ -190,7 +152,7 @@
             <div class="things-to-do-card-grid">
                 <div class="things-to-do-card">
                     <div class="things-card-details-logo">
-                        <img src="" alt="icon">
+                        <img src="images/Groupsignup.png" alt="icon">
                     </div>
                     <div class="things-card-details-content">
                         <h4>Sign Up</h4>
@@ -199,7 +161,7 @@
                 </div>
                 <div class="things-to-do-card">
                     <div class="things-card-details-logo">
-                        <img src="" alt="icon">
+                        <img src="images/Groupmoney.png" alt="icon">
                     </div>
                     <div class="things-card-details-content">
                         <h4>Work of Money</h4>
@@ -208,7 +170,7 @@
                 </div>
                 <div class="things-to-do-card">
                     <div class="things-card-details-logo">
-                        <img src="" alt="icon">
+                        <img src="images/Grouptravel.png" alt="icon">
                     </div>
                     <div class="things-card-details-content">
                         <h4>Exciting Travel</h4>
@@ -218,7 +180,7 @@
             </div>
 
         </section>
-        <!-- section 5 review or users experience part -->
+        <!-- section 4 review or users experience part -->
         <section id="user-experience">
             <div class="experience-head">
                 <h2>Traveler's experience</h2>
@@ -228,8 +190,8 @@
             </div>
             <div class="experience-card-grid-parent">
 
-                <div class="experience-card-grid">
-                    <div class="experience-card">
+                <ul class="experience-card-grid">
+                    <li class="experience-card">
                         <div class="experience-card-logo">
                             <img src="images/login.jpeg" alt="profile-pic">
                         </div>
@@ -248,8 +210,8 @@
                             </p>
 
                         </div>
-                    </div>
-                    <div class="experience-card">
+                    </li>
+                    <li class="experience-card">
                         <div class="experience-card-logo">
                             <img src="images/login.jpeg" alt="profile-pic">
                         </div>
@@ -268,8 +230,8 @@
                             </p>
 
                         </div>
-                    </div>
-                    <div class="experience-card">
+                    </li>
+                    <li class="experience-card">
                         <div class="experience-card-logo">
                             <img src="images/login.jpeg" alt="profile-pic">
                         </div>
@@ -288,17 +250,42 @@
                             </p>
 
                         </div>
-                    </div>
+                    </li>
+                    <li class="experience-card">
+                        <div class="experience-card-logo">
+                            <img src="images/login.jpeg" alt="profile-pic">
+                        </div>
+                        <div class="experience-card-details">
+                            <p class="review-p-1">
+                                But i must explain to you how all this mistaken idea of denouncing pleasure and praising
+                                pain was born and i will give you a complete account of the system and expound the
+                                actual teachings of the great explorer of the truth, the master-builder of human
+                                happines.
+                            </p>
+                            <P class="review-p-2">
+                                <img src="/images/rating-50.png" alt="ratings">
+                            </P>
+                            <p class="review-p-3">
+                                John Doe<br><span>Accountant</span>
+                            </p>
 
-                </div>
+                        </div>
+                    </li>
 
+                </ul>
 
+                <i id="left" class="fa-solid fa-angle-left left-i"></i>
 
-            </div>
-            <div class="experience-card-button">
-                <button onclick="processing();">&lt;</button>
-                <button onclick="processing();">&gt;</button>
-            </div>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+
+            
+            <!-- <div class="experience-card-button">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+
+                <i id="right" class="fa-solid fa-angle-right"></i>
+
+            </div> -->
+        </div>
 
         </section>
         <!-- footer of the page -->
@@ -402,12 +389,14 @@
         </nav>
     </header>
     <script>
-        alert('Not compeleted the work \n project designer is to slow "dayyan"')
+        // alert('Not compeleted the work \n project designer is to slow "dayyan"')
         function processing() {
             alert('On work \n its coming soon')
             onclick = "processing();"
         }
     </script>
+    <script src="scripts/data/package.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>

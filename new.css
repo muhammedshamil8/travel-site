@@ -465,7 +465,7 @@
      }
 
      .package-card-details {
-        margin-top: -10px;
+         margin-top: -10px;
          padding: 10px;
          display: flex;
          flex-direction: column;
@@ -741,28 +741,43 @@
          display: flex;
          justify-content: center;
          align-items: center;
+         /* background-image: url('/images/travel5.jpeg');
+         background-size: cover;
+         background-position: center; */
      }
 
      .footer-card {
-         /* display: flex; */
          width: 100%;
          height: 100%;
-         /* justify-content: center; */
-         /* align-items: center; */
-         background-color: rgba(88, 76, 76, 0.226);
+         background-color: rgba(163, 30, 30, 0.226);
          border-radius: 15px;
-         backdrop-filter: blur(10px);
-         box-shadow: inset 1px -1px 1px white, inset 0px 1px 1px white;
+
+         /* display: flex;
+         justify-content: center;
+         align-items: center;
+         background-image: url('/images/travel5.jpeg');
+         background-size: cover;
+         background-position: center;
+         border-radius: 10px;
+         overflow: hidden;
+         position: relative; */
+
+
          padding-bottom: 10px;
          padding-top: 50px;
          padding-left: 100px;
          padding-right: 100px;
+         backdrop-filter: blur(10px);
+         -webkit-backdrop-filter: blur(10px);
+         box-shadow: inset 1px -1px 1px white, inset 0px 1px 1px white;
+
      }
 
      .footer-card-grid {
          display: grid;
          grid-template-columns: 1fr;
          row-gap: 40px;
+
 
      }
 

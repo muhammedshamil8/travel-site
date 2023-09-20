@@ -1,6 +1,6 @@
 /* responsive design */
 /* size 1 */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 620px) {
      body {
           /* background-color: red; */
           display:inline;
@@ -211,7 +211,7 @@
 
 
 /* size 2 */
-@media (min-width: 421px) and (max-width: 768px) {
+@media (min-width: 621px) and (max-width: 768px) {
      body {
           background-color: rgb(16, 56, 185);
      }

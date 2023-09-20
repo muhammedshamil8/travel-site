@@ -9,6 +9,7 @@
      justify-content: center;
      flex-direction: column;
      padding: 0px 15px;
+     padding-top: 15px;
  }
 
  .package-head {
@@ -257,12 +258,6 @@ gap: 12px;
  }
  @media screen and (max-width: 450px)
  {
-    .package-card-grid-parent .package-card-grid {
-        grid-auto-columns:100%;
-         }
-         .package-card-grid-parent {
-            max-width: 400px;
-            padding: 0px 0px;
-         }
+    
          
  }

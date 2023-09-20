@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>TripolizCz</title>
-    <link rel="stylesheet" href="index.css">
-    <!-- <link rel="stylesheet" href="home-page/home.css">
-    <link rel="stylesheet" href="home-page/header.css">
-    <link rel="stylesheet" href="home-page/section1.css">
-    <link rel="stylesheet" href="home-page/section0.css">
-    <link rel="stylesheet" href="home-page/section2.css">
-    <link rel="stylesheet" href="home-page/section3.css">
-    <link rel="stylesheet" href="home-page/section4.css">
-    <link rel="stylesheet" href="home-page/footer.css"> -->
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="styles/home-page/home.css">
+    <link rel="stylesheet" href="styles/home-page/header.css">
+    <link rel="stylesheet" href="styles/home-page/section1.css">
+    <link rel="stylesheet" href="styles/home-page/section0.css">
+    <link rel="stylesheet" href="styles/home-page/section2.css">
+    <link rel="stylesheet" href="styles/home-page/section3.css">
+    <link rel="stylesheet" href="styles/home-page/section4.css">
+    <link rel="stylesheet" href="styles/home-page/footer.css">
+    <link rel="stylesheet" href="styles/home-page/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <script src="scripts/sliderPackage.js" defer></script>
     <script src="scripts/sliderReview.js" defer></script>
@@ -56,20 +57,26 @@
             <div class="overlay"></div>
             <div class="center-content">
                 <p class="mainp-1">Best Destination around the world</p>
-                <p class="mainp-2">Explore Your World<br> With Us</p>
-                <p class="mainp-3">Trust our services. This will be an incredible experience. Such a wonderful and
-                    amazing trip. You can enjoy it very well.</p>
-                <button class="main-btn1" onclick="processing();">Learn More ></button>
-                <div class="search-container">
-                    <label class="input-icon" for="myInput" onclick="processing();">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-search" viewBox="0 0 16 16">
-                            <path
-                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                        </svg>
-                    </label>
-                    <input type="search" placeholder="Search..." class="main-btn2 form-control" id="myInput">
+                <p class="mainp-2">Explore Your <br>World With Us</p>
+                <div class="mainp-3-div">
+                    <p class="mainp-3">Trust our services. This will be an incredible experience. Such a wonderful and
+                        amazing trip. You can enjoy it very well.</p>
                 </div>
+               
+                <div class="mainp-4">
+                    <button class="main-btn1" onclick="processing();">Learn More ></button> &nbsp;
+                    <div class="search-container">
+                        <label class="input-icon" for="myInput" onclick="processing();">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </label>
+                        <input type="search" placeholder="Search..." class="main-btn2 form-control" id="myInput">
+                    </div>
+                </div>
+                   
             </div>
         </section>
         <section class="service-things">
@@ -164,7 +171,7 @@
 
                         <div class="things-to-do-head">
                             <h2>Things you need to do.</h2>
-                            <p>We ensure that you'll embark on a perfectly planned,safe <br>vacation at a price you can
+                            <p>We ensure that you'll embark on a perfectly planned,safe vacation at a price you can
                                 afford</p>
                         </div>
                         <div class="things-to-do-logo">
@@ -322,7 +329,7 @@
             <a class="nav" href="#Destination">Destination</a>
             <a class="nav" onclick="processing();">Hotel</a>
             <a class="nav" onclick="processing();">Flights</a>
-            <a class="nav" onclick="processing();">Bookings</a>
+            <!-- <a class="nav" onclick="processing();">Bookings</a> -->
             <button class="login-btn" onclick="processing();">Login</button>
             <button class="Signup-btn" onclick="processing();">Sign up</button>
             <select id="myselect">
@@ -333,11 +340,52 @@
             </select>
         </nav>
     </header>
+
+    <header class="header3">
+        <a href="#">
+
+            <div class="left-section3">
+                <p>TripolizCz</p>
+                <img src="images/plane.png" class="icon-plane" alt="logo">
+            </div>
+        </a>
+        <div class="right-section3 js-harmburger">
+            <img class="harmbur-img" src="images/hamburger-menu.svg" onclick="navSection();">
+        </div>
+    </header>
+        <nav class="nav-section3 js-nav-section">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a>language <select id="myselect">
+                    <option>En</option>
+                    <option>Ar</option>
+                    <option>Ml</option>
+                    <option>Hi</option>
+                </select>
+            </a></li>
+              </ul>
+            
+        </nav>
     <script>
         // alert('Not compeleted the work \n project designer is to slow "dayyan"')
         function processing() {
             alert('On work \n its coming soon')
             onclick = "processing();"
+        }
+
+        function navSection(){
+          const nav =  document.querySelector('.js-nav-section');
+          const harmburger =  document.querySelector('.js-harmburger');
+          if(nav.style.display === "block"){
+          nav.style.display = "none";
+
+          harmburger.innerHTML = ` <img class="harmbur-img" src="images/hamburger-menu.svg" onclick="navSection();">`;
+          }else{
+          nav.style.display = "block";
+          harmburger.innerHTML = ` <img class="cross-img" src="images/cross.png" onclick="navSection();">`;
+          }
         }
     </script>
     <script src="scripts/data/package.js"></script>

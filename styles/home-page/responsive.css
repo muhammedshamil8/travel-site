@@ -1,0 +1,226 @@
+/* responsive design */
+/* size 1 */
+@media screen and (max-width: 420px) {
+     body {
+          /* background-color: red; */
+          display:inline;
+     }
+
+     /* package section */
+
+     .package-card-grid-parent .package-card-grid {
+          grid-auto-columns: 100%;
+          gap: 5px;
+
+     }
+
+     .package-card-grid-parent {
+          max-width: 300px;
+          padding: 0px 0px;
+     }
+
+     .package-head p {
+          letter-spacing: 0.5px;
+          word-spacing: 3px;
+     }
+
+     .package-head {
+          text-align: center;
+          padding: 5px;
+     }
+
+     .package-head h2 {
+          text-transform: capitalize;
+          margin-bottom: 10px;
+          font-weight: 800;
+          font-size: 25px;
+          letter-spacing: 0.5px;
+          word-spacing: 2px;
+     }
+
+
+     /* things to do section */
+
+     .things-to-do-head p {
+          line-height: 17px;
+          font-size: 13px;
+          letter-spacing: 0.5px;
+          width: 300px;
+          /* word-spacing: 1px; */
+
+     }
+
+     .things-to-do-logo {
+
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          height: 100%;
+          width: 100px;
+          margin-left: -40px;
+     }
+
+     /* display main section */
+
+
+     .mainp-3-div {
+          width: 300px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          margin: auto;
+
+     }
+
+     .mainp-3 {
+          overflow-wrap: break-word;
+          margin-right: 0px;
+     }
+
+     .mainp-4 {
+          width: 400px
+     }
+
+     .mainp-2 {
+          color: white;
+          text-transform: capitalize;
+          font-weight: bold;
+          font-size: 35px;
+          margin-bottom: 15px;
+          /* width: 350px; */
+          overflow-wrap: break-word;
+          word-wrap: break-word;
+          word-break: break-word;
+          text-shadow: 2px 2px 4px rgb(109, 50, 50);
+
+     }
+
+     /* review section  */
+
+     .experience-head {
+          text-align: center;
+          padding: 5px;
+     }
+
+     .experience-head h2 {
+          text-transform: capitalize;
+          margin-bottom: 10px;
+          font-weight: 800;
+          font-size: 30px;
+          letter-spacing: 0.5px;
+          word-spacing: 2px;
+     }
+
+     .experience-head p {
+          letter-spacing: 0.5px;
+          word-spacing: 1px;
+     }
+
+     .experience-card-grid-parent .experience-card-grid {
+          grid-auto-columns: 100%;
+     }
+
+     .experience-card-grid-parent {
+          max-width: 400px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .review-p-1 {
+          color: grey;
+          font-size: 13px;
+          width: 250px;
+     }
+
+     .experience-card {
+          background-color: rgb(199, 188, 188);
+          border-radius: 5px;
+          width: 350px;
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+
+          /* z-index: 1; */
+          /* height: 300px; */
+     }
+
+     .experience-card-logo {
+          margin-top: 5px;
+          margin-left: -220px;
+          /* position: absolute; */
+          /* overflow: hidden; */
+          /* z-index: ; */
+     }
+
+     .experience-card-details {
+          display: flex;
+          flex-direction: column;
+          justify-content: left;
+          align-items: left;
+          text-align: left;
+          padding: 10px;
+          /* margin-top: 30px; */
+
+     }
+
+     /* footer section */
+     footer {
+          padding: 60px 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          /* max-width: 700px; */
+
+     }
+
+     .footer-card {
+          display: grid;
+          grid-template-columns: 1fr;
+          padding: 20px;
+          margin: 30px;
+          max-width: 500px;
+
+
+     }
+
+     .footer-button {
+          margin-bottom: -50px;
+     }
+
+     .footer-contact {
+          margin-top: -30px;
+
+     }
+
+     .footer-head-grid {
+          display: grid;
+          grid-template-columns: 1fr;
+          row-gap: 20px;
+     }
+
+     .footer-main {
+          display: grid;
+          grid-template-columns: 1fr;
+          width: 100%;
+     }
+}
+
+
+
+
+/* size 2 */
+@media (min-width: 421px) and (max-width: 768px) {
+     body {
+          background-color: rgb(16, 56, 185);
+     }
+}
+
+
+/* size 3 */
+@media (min-width: 769px) and (max-width: 950px) {
+     body {
+          background-color: rgb(92, 206, 15);
+     }
+}

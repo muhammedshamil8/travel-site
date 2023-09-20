@@ -28,7 +28,7 @@
 
  .experience-head p {
      letter-spacing: 1px;
-     word-spacing: 5px;
+     word-spacing: 2px;
  }
 
  .experience-card-grid-parent {
@@ -193,13 +193,5 @@ grid-auto-columns: calc((100% / 1) - 9px);
  }
  @media screen and (max-width: 600px)
  {
-      .experience-card-grid-parent .experience-card-grid {
-grid-auto-columns: 100%;
- }
- .experience-card-grid-parent {
-    max-width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
  }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <title>TripolizCz</title>
     <!-- <link rel="stylesheet" href="index.css"> -->
@@ -17,12 +17,14 @@
     <link rel="stylesheet" href="styles/home-page/section4.css">
     <link rel="stylesheet" href="styles/home-page/footer.css">
     <link rel="stylesheet" href="styles/home-page/responsive.css">
+    <link rel="stylesheet" href="styles/home-page/signup.css">
+    <link rel="stylesheet" href="styles/home-page/package.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <script src="scripts/sliderPackage.js" defer></script>
     <script src="scripts/sliderReview.js" defer></script>
 </head>
 
-<body>
+<body class="orginalContent">
     <!-- header of the page -->
     <header>
         <a href="#">
@@ -40,7 +42,7 @@
         </nav>
         <div class="user-actions">
             <button class="login-btn" onclick="processing();">Login</button>
-            <button class="Signup-btn" onclick="processing();">Sign up</button>
+            <button class="Signup-btn js-signup">Sign up</button>
             <select id="myselect">
                 <option selected>En</option>
                 <option>Ara</option>
@@ -54,8 +56,11 @@
 
         <!-- section 1 background image included part -->
         <section class="display-main">
-            <img class="background-image" src="images/bg.jpg" alt="background-image">
+
+            <img class="background-image2" src="images/bg.jpg" alt="background-image">
             <div class="overlay"></div>
+
+
             <div class="center-content">
                 <p class="mainp-1">Best Destination around the world</p>
                 <p class="mainp-2">Explore Your <br>World With Us</p>
@@ -63,7 +68,7 @@
                     <p class="mainp-3">Trust our services. This will be an incredible experience. Such a wonderful and
                         amazing trip. You can enjoy it very well.</p>
                 </div>
-               
+
                 <div class="mainp-4">
                     <button class="main-btn1" onclick="processing();">Learn More ></button> &nbsp;
                     <div class="search-container">
@@ -77,21 +82,62 @@
                         <input type="search" placeholder="Search..." class="main-btn2 form-control" id="myInput">
                     </div>
                 </div>
-                   
+
             </div>
         </section>
         <section class="service-things">
             <div class="service-things-card">
                 <button class="service-things-btn">
-                    <img src="images/Groupmoney.png" alt="icon">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg fill="#000000" version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 32 32"
+                        xml:space="preserve">
+                        <style type="text/css">
+                            .puchipuchi_een {
+                                fill: #ffffff;
+                            }
+                        </style>
+                        <path class="puchipuchi_een"
+                            d="M9.285,2.029l-6.57,3.942C1.772,6.537,1,7.9,1,9v20c0,1.1,0.772,1.537,1.715,0.971l6.57-3.942
+                        C10.228,25.463,11,24.1,11,23V3C11,1.9,10.228,1.463,9.285,2.029z M4,23c-0.552,0-1-0.448-1-1s0.448-1,1-1s1,0.448,1,1
+                        S4.552,23,4,23z M6,20c-0.552,0-1-0.448-1-1s0.448-1,1-1s1,0.448,1,1S6.552,20,6,20z M9,17c-0.552,0-1-0.448-1-1s0.448-1,1-1
+                        s1,0.448,1,1S9.552,17,9,17z M18.4,5.8l-4.8-3.6C12.72,1.54,12,1.9,12,3v9c0.552,0,1,0.448,1,1s-0.448,1-1,1v9
+                        c0,1.1,0.72,2.54,1.6,3.2l4.8,3.6c0.88,0.66,1.6,0.3,1.6-0.8V14c-0.552,0-1-0.448-1-1s0.448-1,1-1V9C20,7.9,19.28,6.46,18.4,5.8z
+                         M16,13c-0.552,0-1-0.448-1-1s0.448-1,1-1s1,0.448,1,1S16.552,13,16,13z M29.285,2.029l-6.57,3.942C21.772,6.537,21,7.9,21,9v20
+                        c0,1.1,0.772,1.537,1.715,0.971l6.57-3.942C30.228,25.463,31,24.1,31,23V3C31,1.9,30.228,1.463,29.285,2.029z M23,15
+                        c-0.552,0-1-0.448-1-1s0.448-1,1-1s1,0.448,1,1S23.552,15,23,15z M29.707,19.293c0.391,0.391,0.391,1.023,0,1.414
+                        C29.512,20.902,29.256,21,29,21s-0.512-0.098-0.707-0.293L27,19.414l-1.293,1.293C25.512,20.902,25.256,21,25,21
+                        s-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414L25.586,18l-1.293-1.293c-0.391-0.391-0.391-1.023,0-1.414
+                        s1.023-0.391,1.414,0L27,16.586l1.293-1.293c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L28.414,18L29.707,19.293z" />
+                    </svg>
                     <p>Destinations</p>
                 </button>
                 <button class="service-things-btn">
-                    <img src="images/Groupmoney.png" alt="icon">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <style type="text/css">
+                            .puchipuchi_een {
+                                fill: #ffffff;
+                            }
+                        </style>
+                        <path
+                            d="M240,207.98316h-8.00586v-104a16.01833,16.01833,0,0,0-16-16h-64v-48a16.01833,16.01833,0,0,0-16-16h-96a16.01833,16.01833,0,0,0-16,16v168H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16Zm-120.00586-72a8.00009,8.00009,0,0,1-8,8h-32a8,8,0,0,1,0-16h32A8.00008,8.00008,0,0,1,119.99414,135.98316Zm-56-72h32a8,8,0,1,1,0,16h-32a8,8,0,0,1,0-16Zm0,104h32a8,8,0,1,1,0,16h-32a8,8,0,0,1,0-16Zm88-64h64v104h-64Zm48,72a8.00009,8.00009,0,0,1-8,8h-16a8,8,0,0,1,0-16h16A8.00008,8.00008,0,0,1,199.99414,175.98316Zm-32-40a8.00008,8.00008,0,0,1,8-8h16a8,8,0,1,1,0,16h-16A8.00009,8.00009,0,0,1,167.99414,135.98316Z" />
+                    </svg>
                     <p>Hotel</p>
                 </button>
                 <button onclick="processing();" class="service-things-btn">
-                    <img src="images/Groupmoney.png" alt="icon">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <style type="text/css">
+                            .puchipuchi_een {
+                                fill: #ffffff;
+                            }
+                        </style>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2 14.803v6.447c0 .414.336.75.75.75h1.614a.75.75 0 0 0 .74-.627L5.5 19h13l.395 2.373a.75.75 0 0 0 .74.627h1.615a.75.75 0 0 0 .75-.75v-6.447a5.954 5.954 0 0 0-1-3.303l-.78-1.17a1.994 1.994 0 0 1-.178-.33h.994a.75.75 0 0 0 .671-.415l.25-.5A.75.75 0 0 0 21.287 8H19.6l-.31-1.546a2.5 2.5 0 0 0-1.885-1.944C15.943 4.17 14.141 4 12 4c-2.142 0-3.943.17-5.405.51a2.5 2.5 0 0 0-1.886 1.944L4.399 8H2.714a.75.75 0 0 0-.67 1.085l.25.5a.75.75 0 0 0 .67.415h.995a1.999 1.999 0 0 1-.178.33L3 11.5c-.652.978-1 2.127-1 3.303zm15.961-4.799a4 4 0 0 0 .34.997H5.699c.157-.315.271-.65.34-.997l.632-3.157a.5.5 0 0 1 .377-.39C8.346 6.157 10 6 12 6c2 0 3.654.156 4.952.458a.5.5 0 0 1 .378.389l.631 3.157zM5.5 16a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM20 14.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                    </svg>
                     <p>Cabs</p>
                 </button>
             </div>
@@ -243,72 +289,120 @@
         </section>
         <!-- footer of the page -->
         <footer>
+            <img class="footer-bg" src="images/footer.png" alt="background-image">
+            <div class="footer-content">
+                <div class="footer-card">
+                    <div class="footer-card-blur">
 
-            <div class="footer-card">
-                <div class="footer-card-blur">
-
-                    <div class="footer-card-grid">
-                        <div class="footer-head-grid">
-                            <div class="footer-head">
-                                <p>Prepare yourself to be a part of exploration of</p>
-                                <h2>The Beauty of kerala.</h2>
-                            </div>
-                            <div class="footer-button">
-                                <button class="signin-footer" onclick="processing();">sign in</button>
-                                <button class="signup-footer" onclick="processing();">sign up</button>
-                            </div>
-                        </div>
-                        <div class="footer-main">
-                            <div class="footer-contact">
-                                <!-- <div class="footer-contact2"> -->
-                                <h2>TripolizCz
-                                    <img src="images/plane.png" class="icon-plane-footer" alt="logo">
-                                </h2>
-                                <p>Book your trip in minute, get full</p>
-                                <p>control for much longer.</p>
-                                <div>
-                                    <img class="icon" src="" alt="f" onclick="processing();">
-                                    <img class="icon" src="" alt="i" onclick="processing();">
-                                    <img class="icon" src="" alt="l" onclick="processing();">
-
+                        <div class="footer-card-grid">
+                            <div class="footer-head-grid">
+                                <div class="footer-head">
+                                    <p>Prepare yourself to be a part of exploration of</p>
+                                    <h2>The Beauty of kerala.</h2>
+                                </div>
+                                <div class="footer-button">
+                                    <button class="signin-footer" onclick="processing();">sign in</button>
+                                    <button class="signup-footer" onclick="processing();">sign up</button>
                                 </div>
                             </div>
-                            <!-- </div> -->
-                            <div class="footer-details">
-                                <table class="footer-table" onclick="processing();">
-                                    <tr>
-                                        <th>Company</th>
-                                        <th>Contact</th>
-                                        <th>More</th>
+                            <div class="footer-main">
+                                <div class="footer-contact">
+                                    <!-- <div class="footer-contact2"> -->
+                                    <h2>TripolizCz
+                                        <img src="images/plane.png" class="icon-plane-footer" alt="logo">
+                                    </h2>
+                                    <p>Book your trip in minute, get full</p>
+                                    <p>control for much longer.</p>
+                                    <div class="social-icon">
+                                        <div class="icon">
+                                            <?xml version="1.0" encoding="utf-8"?>
+                                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                            <svg fill="none" width="800px" height="800px" viewBox="-5.5 0 32 32"
+                                                version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.188 5.594h18.438c0.625 0 1.188 0.563 1.188 1.188v18.438c0 0.625-0.563 1.188-1.188 1.188h-18.438c-0.625 0-1.188-0.563-1.188-1.188v-18.438c0-0.625 0.563-1.188 1.188-1.188zM14.781 17.281h2.875l0.125-2.75h-3v-2.031c0-0.781 0.156-1.219 1.156-1.219h1.75l0.063-2.563s-0.781-0.125-1.906-0.125c-2.75 0-3.969 1.719-3.969 3.563v2.375h-2.031v2.75h2.031v7.625h2.906v-7.625z"
+                                                    fill="#000000"></path>
+                                            </svg>
 
 
-                                    </tr>
-                                    <td>About</td>
-                                    <td>Help/FAQ</td>
-                                    <td>Press centre</td>
+                                        </div>
+                                        <div class="icon">
+                                            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                            <svg width="800px" height="800px" viewBox="0 0 20 20" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <title>instagram [#167]</title>
+                                                <desc>Created with Sketch.</desc>
+                                                <defs></defs>
+                                                <g id="Page-1" stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <g id="Dribbble-Light-Preview"
+                                                        transform="translate(-340.000000, -7439.000000)" fill="#000000">
+                                                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                            <path
+                                                                d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+
+                                        </div>
+                                        <div class="icon twitter">
+                                            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 32 32"
+                                                version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M21.387 4.959c1.652 0 3.144 0.676 4.195 1.762 1.308-0.253 2.54-0.714 3.648-1.352-0.428 1.301-1.34 2.393-2.525 3.083 1.16-0.136 2.27-0.434 3.301-0.88-0.773 1.117-1.745 2.1-2.868 2.886 0.011 0.239 0.017 0.479 0.017 0.719 0 7.366-5.782 15.863-16.354 15.863-3.245 0-6.268-0.926-8.809-2.507 0.449 0.052 0.906 0.079 1.37 0.079 2.692 0 5.172-0.89 7.139-2.387-2.517-0.043-4.641-1.657-5.369-3.87 0.351 0.066 0.711 0.101 1.082 0.101 0.522 0 1.032-0.067 1.512-0.195-2.629-0.511-4.611-2.764-4.611-5.467v-0.072c0.776 0.418 1.661 0.669 2.605 0.698-1.543-1.001-2.558-2.705-2.558-4.64 0-1.022 0.284-1.981 0.779-2.801 2.834 3.371 7.069 5.591 11.847 5.824-0.098-0.407-0.149-0.837-0.149-1.27 0-3.079 2.574-5.575 5.749-5.575zM30.006 7.572v0z">
+                                                </path>
+                                            </svg>
 
 
-                                    </tr>
-                                    <tr>
-
-                                        <td>careers</td>
-                                        <td>Press</td>
-                                        <td>OurBlog</td>
+                                        </div>
 
 
-                                    </tr>
-                                    <tr>
-                                        <td>logistic</td>
-                                        <td>Afflilates</td>
 
-                                        <td>Low fare tips</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Privacy & Policy</td>
 
-                                    </tr>
+                                    </div>
+                                </div>
+                                <!-- </div> -->
+                                <div class="footer-details">
+                                    <table class="footer-table" onclick="processing();">
+                                        <tr>
+                                            <th>Company</th>
+                                            <th>Contact</th>
+                                            <th>More</th>
 
-                                </table>
+
+                                        </tr>
+                                        <td>About</td>
+                                        <td>Help/FAQ</td>
+                                        <td>Press centre</td>
+
+
+                                        </tr>
+                                        <tr>
+
+                                            <td>careers</td>
+                                            <td>Press</td>
+                                            <td>OurBlog</td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <td>logistic</td>
+                                            <td>Afflilates</td>
+
+                                            <td>Low fare tips</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Privacy & Policy</td>
+
+                                        </tr>
+
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -332,7 +426,7 @@
             <a class="nav" onclick="processing();">Flights</a>
             <!-- <a class="nav" onclick="processing();">Bookings</a> -->
             <button class="login-btn" onclick="processing();">Login</button>
-            <button class="Signup-btn" onclick="processing();">Sign up</button>
+            <button class="Signup-btn js-signup">Sign up</button>
             <select id="myselect">
                 <option>En</option>
                 <option>Ar</option>
@@ -354,21 +448,21 @@
             <img class="harmbur-img" src="images/hamburger-menu.svg" onclick="navSection();">
         </div>
     </header>
-        <nav class="nav-section3 js-nav-section">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a>language <select id="myselect">
-                    <option>En</option>
-                    <option>Ar</option>
-                    <option>Ml</option>
-                    <option>Hi</option>
-                </select>
-            </a></li>
-              </ul>
-            
-        </nav>
+    <nav class="nav-section3 js-nav-section">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a>language <select id="myselect">
+                        <option>En</option>
+                        <option>Ar</option>
+                        <option>Ml</option>
+                        <option>Hi</option>
+                    </select>
+                </a></li>
+        </ul>
+
+    </nav>
     <script>
         // alert('Not compeleted the work \n project designer is to slow "dayyan"')
         function processing() {
@@ -376,18 +470,8 @@
             onclick = "processing();"
         }
 
-        function navSection(){
-          const nav =  document.querySelector('.js-nav-section');
-          const harmburger =  document.querySelector('.js-harmburger');
-          if(nav.style.display === "block"){
-          nav.style.display = "none";
 
-          harmburger.innerHTML = ` <img class="harmbur-img" src="images/hamburger-menu.svg" onclick="navSection();">`;
-          }else{
-          nav.style.display = "block";
-          harmburger.innerHTML = ` <img class="cross-img" src="images/cross.png" onclick="navSection();">`;
-          }
-        }
+
     </script>
     <script src="scripts/data/package.js"></script>
     <script src="scripts/data/review.js"></script>

@@ -2,25 +2,39 @@
 
 
 footer {
-    /* height: 400px; */
-    /* background-color: rgb(23, 226, 209); */
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    padding-bottom: 50px;
-    padding-top: 30px;
-    /* padding: 60px 130px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('/Group_610bg.png');
-    background-size: cover;
-    background-position: center;
+    position: relative;
+    /* height: 500px; */
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
+.footer-bg {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center; */
 .footer-card {
-    /* width: 100%; */
-    /* height: 100%; */
-    background-color: rgba(71, 90, 71, 0.226);
+    /* top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center; */
+    margin: 0px 40px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.226);
     border-radius: 15px;
 
     /* display: flex;
@@ -46,6 +60,7 @@ footer {
 }
 
 .footer-card-grid {
+
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 20px;
@@ -130,6 +145,42 @@ footer {
     width: 20px;
 }
 
+.social-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon svg {
+    height: 15px;
+    width: 15px;
+    fill: #000;
+    /* Ensures SVGs start with no fill */
+}
+
+.icon svg:hover path {
+    fill: #ffffff;
+    /* Change the fill on hover for all SVGs */
+}
+
+.icon .twitter svg path {
+    fill: #000000;
+    /* Ensure Twitter is completely filled in black */
+}
+
+.icon {
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    background-color: #ffffff;
+}
+
+.icon:hover {
+    background-color: #239e94;
+
+}
+
 .footer-contact p {
     color: #fff;
     font-size: 11px;
@@ -160,13 +211,13 @@ footer {
     color: white;
 }
 
-@media screen and (max-width:900px) {
+/* @media screen and (max-width:900px) {
     footer {
         padding: 60px 20px;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* max-width: 700px; */
+        max-width: 700px;
 
     }
 
@@ -183,4 +234,4 @@ footer {
         grid-template-columns: 1fr;
         width: 100%;
     }
-}
+} */

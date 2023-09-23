@@ -16,7 +16,7 @@
      background: rgb(0, 207, 235);
      padding: 5px;
      border-radius: 8px;
-   
+
 
 }
 
@@ -37,14 +37,23 @@
 
 }
 
-.service-things-btn img {
+.service-things-btn:hover svg .puchipuchi_een {
+     fill: rgb(83, 189, 33);
+}
+
+.service-things-btn svg {
      height: 30px;
      width: 30px;
-     color: black;
+     fill: rgb(255, 255, 255);
+}
+
+.service-things-btn svg:hover {
+     height: 30px;
+     width: 30px;
+     fill: rgb(29, 161, 79);
 }
 
 .service-things-btn p {
      font-size: 12px;
      margin-top: 5px;
 }
-

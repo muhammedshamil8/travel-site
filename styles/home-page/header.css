@@ -10,7 +10,7 @@ header {
      align-items: center;
      padding: 10px 20px;
      top: 0px;
-     z-index: 1;
+     z-index: 100;
      position: fixed;
      width: 100%;
      font-weight: 550;
@@ -145,6 +145,18 @@ header {
  .nav-section3{
     display: none;
  }
+ /* Add a CSS transition for the display property */
+.js-nav-section {
+    display: none;
+    transition: display 0.3s ease-in-out;
+}
+
+/* Add a CSS class to rotate the hamburger icon */
+.rotate {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in-out;
+}
+
  @media (max-width: 420px) {
 
  }

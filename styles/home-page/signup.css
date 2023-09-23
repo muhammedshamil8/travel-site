@@ -1,0 +1,175 @@
+/* Add your styles here */
+
+
+.signup-body {
+    /* display: flex; */
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    overflow-y: hidden;
+    z-index: -2;
+
+}
+
+.bg-signup-container {
+    /* opacity: 0.5; */
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: rgb(255, 255, 255);
+}
+
+.signup-bg {
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    /* top: 0; */
+    /* right: -300px; */
+    z-index: 1;
+}
+
+.overlay2 {
+    /* display: none; */
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+
+    width: 10%;
+    height: 100%;
+    background-color: #fffffffa;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.253), 65px 0px 50px 50px #ffffff;
+}
+
+.logo-signup {
+    margin-top: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    cursor: crosshair;
+    /* text-align: center; */
+    padding-left: 25px;
+    margin-bottom: 100px;
+
+}
+a{
+    text-decoration: none;
+}
+.logo-signup p {
+    color: #242222;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 5px;
+}
+
+.icon-plane {
+    height: 40px;
+    width: 40px;
+    z-index: 5px;
+
+}
+.main-signup-layout{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 50px;
+}
+.signup-content-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+}
+.signup-body form {
+    z-index: 5;
+
+    margin-left: 15px;
+}
+
+.signup-body form input {
+    border: none;
+    padding: 8px;
+    margin: 8px;
+    width: 200px;
+    background-color: #e9e7e7f3;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.signup-body form input:focus {
+    outline-color: rgb(0, 162, 255);
+}
+
+#lastname {
+    width: 90px;
+}
+
+#firstname {
+    width: 90px;
+}
+
+.signup-body form button {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    z-index: 2;
+
+}
+
+.form-btn1 {
+    background-color: rgb(77, 62, 62);
+    color: white;
+}
+
+.signup-body form button:last-child {
+    background-color: rgb(32, 126, 133);
+    color: white;
+}
+
+.back-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.signup-content {
+    z-index: 5;
+}
+
+.signup-content .p1 {
+    text-transform: uppercase;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.signup-content h2 {
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+
+.signup-content h2 span {
+    color: rgb(9, 116, 179);
+}
+
+.signup-content p a {
+    color: rgb(3, 116, 182);
+    text-decoration: none;
+    font-weight: 550;
+
+}

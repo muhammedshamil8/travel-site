@@ -1,3 +1,7 @@
+// import { review } from '../data/review';
+// import { packages } from '../data/package';
+
+
 let packagesHtml = '';
 
 packages.forEach((package) => {
@@ -116,12 +120,12 @@ function setupSignupButtonListener() {
 </div>
 
     `;
-    // <button onClick="original();" class="back-btn">&nbsp; &gt; &nbsp;</button>
+            // <button onClick="original();" class="back-btn">&nbsp; &gt; &nbsp;</button>
 
-            const backButton = document.getElementById('backButton');
-            backButton.addEventListener('click', () => {
-                original();
-            });
+            // const backButton = document.getElementById('backButton');
+            // backButton.addEventListener('click', () => {
+            //     original();
+            // });
         });
 
     });
@@ -129,7 +133,7 @@ function setupSignupButtonListener() {
 
 // Initial setup of event listener for signup button
 setupSignupButtonListener();
-
+/*
 function original() {
     if (originalContent) {
         document.body.innerHTML = originalContent;
@@ -139,6 +143,7 @@ function original() {
         console.log('No original content found.');
     }
 }
+*/
 function DestinationListener() {
     // Attach the event listener to the destination button
     const DestinationButton = document.querySelectorAll('.js-destination');
@@ -153,17 +158,18 @@ function DestinationListener() {
 
             document.body.innerHTML = `
                 <div class="content-package-layout">
-                    <a href="index.html" class="back-btn" id="HomeButton">
-                        <div class="logo">
-                            <img src="images/plane.png" class="icon-plane" alt="logo">
-                            <p>TripolizCz</p>
-                        </div>
+                &nbsp;&nbsp;&nbsp;go Home
+                        <a href="index.html" class="logopackage">
+                            <img src="images/plane.png" class="icon-plane-package" alt="logopackage">
+                    <p> TripolizCz  </p>
+
                     </a>
                     <div class="content-package-img">
                         <img src="${packages[index].image}" alt="Package Image">
                     </div>
                     <div class="content-package-details">
                         <h2>${packages[index].place}</h2>
+                        <p>${packages[index].about}</p>
                         <p>${packages[index].about}</p>
                         <div class="bottom-package-content">
                             <button>Book Now</button>
@@ -175,10 +181,10 @@ function DestinationListener() {
                 </div>
             `;
 
-            const backButton = document.getElementById('HomeButton');
-            backButton.addEventListener('click', () => {
-                original2();
-            });
+            // const backButton = document.getElementById('HomeButton');
+            // backButton.addEventListener('click', () => {
+            //     original2();
+            // });
         });
     });
 }
@@ -186,7 +192,7 @@ function DestinationListener() {
 // Initial setup of event listener for destination button
 DestinationListener();
 
-
+/*
 function setupBackButtonListener() {
     // Attach the event listener to the back button
     const backButton = document.querySelector('.back-btn');
@@ -206,4 +212,4 @@ function setupBackButtonListener() {
 // Initial setup of event listener for back button
 setupBackButtonListener();
 
-
+*/

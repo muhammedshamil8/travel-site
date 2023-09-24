@@ -325,6 +325,6 @@ footer {
 /* size 3 */
 @media (min-width: 769px) and (max-width: 950px) {
      body {
-          background-color: rgb(92, 206, 15);
+          /* background-color: rgb(92, 206, 15); */
      }
 }

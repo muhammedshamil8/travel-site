@@ -1,3 +1,4 @@
+// export 
 const review = [
      {
           Image:'images/cat1.jpeg',

@@ -1,4 +1,5 @@
-const packages = [
+// export
+ const packages = [
      {
           id: "id1-p",
           image: "alleppey.png",

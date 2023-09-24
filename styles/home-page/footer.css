@@ -37,7 +37,7 @@ max-width: 1200px;
     margin-bottom: 40px;
     position: relative;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.226);
+    background-color: rgba(141, 129, 129, 0.185);
     border-radius: 15px;
 
     /* display: flex;
@@ -93,7 +93,8 @@ max-width: 1200px;
     font-size: 30px;
     color: white;
     word-spacing: 5px;
-
+    letter-spacing: 2px;
+font-weight: 900;
 }
 
 .footer-button {
@@ -150,8 +151,14 @@ max-width: 1200px;
 }
 
 .footer-contact h2 {
+    margin: 0px;
     font-size: 15px;
     display: flex;
+    font-weight: 900;
+}
+.footer-contact p{
+    margin: 0px;
+
 }
 
 .icon-plane-footer {
@@ -160,6 +167,7 @@ max-width: 1200px;
 }
 
 .social-icon {
+    margin-top: 5px;
     display: flex;
     align-items: center;
     gap: 5px;

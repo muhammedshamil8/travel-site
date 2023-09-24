@@ -60,14 +60,28 @@
     /* text-align: center; */
     padding-left: 25px;
     margin-bottom: 100px;
+    text-decoration: none;
+    z-index: 5;
+
 }
-a{
+.logo-signup1 {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: crosshair;
+    /* text-align: center; */
+    
+
+}
+.logo-signup a{
     text-decoration: none;
 }
 .logo-signup p {
-    color: #242222;
+    color: #131313;
     font-size: 20px;
     font-weight: 700;
+    margin: 0px;
 }
 
 .icon-plane {

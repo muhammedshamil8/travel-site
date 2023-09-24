@@ -4,14 +4,24 @@
 
 
 #things-to-do {
+     margin-top: 60px;
      margin-bottom: 60px;
      padding: 0px 15px;
      display: flex;
      justify-content: center;
      align-items: center;
      flex-direction: column;
+    
  }
-
+.overlay-things-to-do{
+    position: absolute;
+    background-color: red;
+    left: 15px;
+    height: 20%;
+    width: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.288), 75px 0px 400px 90px #cf0404;
+    z-index: 1;
+}
  .things-to-do-head-parent-dad {
      display: flex;
      justify-content: center;
@@ -80,6 +90,8 @@
  }
 
  .things-to-do-card {
+    z-index: 2;
+
      background-color: #ffffff;
      height: 200px;
      width: 320px;

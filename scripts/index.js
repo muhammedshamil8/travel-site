@@ -8,7 +8,7 @@ packages.forEach((package) => {
     packagesHtml += `
      <li class="package-card">
      <div class="package-image">
-         <img src="${package.image}" alt="package-img" draggable="false">
+         <img src="images/${package.image}" alt="package-img" draggable="false">
 
      </div>
      <div class="package-card-details">
@@ -40,7 +40,7 @@ review.forEach((review) => {
         ${review.experience}
     </p>
     <P class="review-p-2">
-        <img src="rating-50.png" alt="ratings">
+        <img src="/images/rating-50.png" alt="ratings">
     </P>
     <p class="review-p-3">
         ${review.name}<br><span>${review.about}</span>
@@ -94,7 +94,7 @@ function setupSignupButtonListener() {
     
     <div class="logo-signup">
     <a href="index.html" onClick="original();">
-    <div class="logo-signup">
+    <div class="logo-signup1">
 
         <p>TripolizCz</p>
         <img src="images/plane.png" class="icon-plane" alt="logo">
@@ -163,7 +163,7 @@ function DestinationListener() {
 
             document.body.innerHTML = `
                 <div class="content-package-layout">
-                &nbsp;&nbsp;&nbsp;go Home
+                
                         <a href="index.html" class="logopackage">
                             <img src="images/plane.png" class="icon-plane-package" alt="logopackage">
                     <p> TripolizCz  </p>

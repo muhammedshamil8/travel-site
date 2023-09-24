@@ -223,6 +223,7 @@
 
         <!-- section 3 things to do part -->
         <section id="things-to-do">
+            <div class="overlay-things-to-do"></div>
             <div class="things-to-do-head-child">
                 <div class="things-to-do-head-parent-dad">
                     <div class="things-to-do-head-parent">
@@ -441,16 +442,16 @@
     </header>
     <nav class="nav-section3 js-nav-section">
         <ul>
-            <li> <a class="nav" href="#Destination">Destination</a></li>
-            <li> <a class="nav" onclick="processing();">Hotel</a></li>
-            <li> <a class="nav" onclick="processing();">Flights</a> </li>
-            <li> <a class="nav js-signup">Sign up</a> </li>
+            <li> <a class="nav" href="#Destination" onclick="navSection();">Destination</a></li>
+            <li> <a class="nav" onclick="navSection();">Hotel</a></li>
+            <li> <a class="nav" onclick="navSection();">Flights</a> </li>
+            <li> <a class="nav js-signup" onclick="navSection();">Sign up</a> </li>
             <li>
                 <a>language <select id="myselect">
-                        <option>En</option>
-                        <option>Ar</option>
-                        <option>Ml</option>
-                        <option>Hi</option>
+                        <option onclick="navSection();">En</option>
+                        <option onclick="navSection();">Ar</option>
+                        <option onclick="navSection();">Ml</option>
+                        <option onclick="navSection();">Hi</option>
                     </select>
                 </a></li>
         </ul>

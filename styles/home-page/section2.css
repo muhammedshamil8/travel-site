@@ -32,10 +32,11 @@
 }
 
 .package-card-grid-parent {
-    max-width: 1100px;
+    max-width: 1000px;
     width: 100%;
     position: relative;
     padding: 0px 15px;
+    padding-left: 50px;
     /* Adjust padding as needed */
     /* background-color: red; */
 
@@ -67,8 +68,8 @@
 .package-card-grid-parent .package-card-grid {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 3) - 16px);
-    gap: 16px;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    gap: 15px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scrollbar-width: 0;

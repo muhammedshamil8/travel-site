@@ -91,14 +91,19 @@ function setupSignupButtonListener() {
         <img class="signup-bg" src="images/signup-bg.jpg" alt="Background Image">
         <div class="overlay2"></div>
     </div>
-    <a href="index.html" onClick="original();" >
-
+    
     <div class="logo-signup">
+    <a href="index.html" onClick="original();">
+    <div class="logo-signup">
+
         <p>TripolizCz</p>
         <img src="images/plane.png" class="icon-plane" alt="logo">
-   </div> </a>
+        </div>
+        </a>
+   </div> 
+
     <div class="main-signup-layout">
-<div class="signup-content-flex">
+    <div class="signup-content-flex">
 
     <div class="signup-content">
         <p class="p1">Start for free</p>

@@ -260,7 +260,7 @@
      }
 
      .services-btn-container {
-         padding-left: 150px;
+         padding-left: 180px;
      }
 
      .services-btn {
@@ -278,7 +278,7 @@
      }
 
      /* .S-btn-2 {
-        left: 10px;
+        left: -15px;
      } */
 
      .S-btn-3 {
@@ -286,7 +286,8 @@
      }
 
      /* .S-btn-4 {
-        right: 0px;
+        left: -15px;
+
      } */
 
      .services-btn p {
@@ -304,5 +305,12 @@
     }
 
  }
+ @media (max-width: 500px) {
+   
+   
+    .services-btn {
+        padding: 10px;
+        width: 240px;
+    }
  
- 
+}

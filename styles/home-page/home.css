@@ -9,9 +9,9 @@
      /* * h2{
         color: red;
      } */
-* section ,footer{
+/* * section ,footer{
     width: 100%;
-}
+} */
      body {
          font-family: 'Roboto', Arial, sans-serif;
          background-color: #e2e2e2;
@@ -30,17 +30,15 @@
      main {
         margin: 0;
         padding: 0;
-         display: grid;
-         grid-template-rows: auto;
+         display: flex;
+         flex-direction: column;
+         /* grid-template-rows: auto; */
          row-gap: 30px;
+         overflow-x: hidden;
      }
 
      @media screen and (max-width: 768px) {
-         main {
-             grid-template-rows: auto auto;
-             /* Add more rows as needed */
-             /* overflow-x: hidden; */
-         }
+        
          body {
             font-family: 'Roboto', Arial, sans-serif;
             background-color: #e2e2e2;

@@ -6,6 +6,10 @@
 #things-to-do {
      margin-bottom: 60px;
      padding: 0px 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
  }
 
  .things-to-do-head-parent-dad {
@@ -18,7 +22,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     gap: 15px;
+     gap: 0px;
 
  }
 
@@ -131,6 +135,7 @@ width: 100%;
         /* text-transform: capitalize; */
    
     }
+   
 }
 
 @media screen and (max-width: 600px) {

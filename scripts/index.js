@@ -40,7 +40,7 @@ review.forEach((review) => {
         ${review.experience}
     </p>
     <P class="review-p-2">
-        <img src="/images/rating-50.png" alt="ratings">
+        <img src="rating-50.png" alt="ratings">
     </P>
     <p class="review-p-3">
         ${review.name}<br><span>${review.about}</span>

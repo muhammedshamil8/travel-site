@@ -10,6 +10,7 @@
     flex-direction: column;
     padding: 0px 15px;
     padding-top: 15px;
+
 }
 
 .package-head {
@@ -56,7 +57,9 @@
     transform: translateY(-50%);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-
+.package-card-grid-parent i:hover {
+background-color: #ddd;
+}
 .package-card-grid-parent i:first-child {
     left: -30px;
 }
@@ -277,4 +280,3 @@
 
 }
 
-@media screen and (max-width: 450px) {}

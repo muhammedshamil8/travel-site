@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="styles/home-page/signup.css">
     <link rel="stylesheet" href="styles/home-page/package.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="scripts/sliderPackage.js" defer></script>
     <script src="scripts/sliderReview.js" defer></script>
 </head>
@@ -72,14 +73,14 @@
                 <div class="mainp-4">
                     <button class="main-btn1" onclick="processing();">Learn More ></button> &nbsp;
                     <div class="search-container">
-                        <label class="input-icon" for="myInput" onclick="processing();">
+                        <label class="input-icon1" for="myInput" onclick="processing();">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-search" viewBox="0 0 16 16">
                                 <path
                                     d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                             </svg>
                         </label>
-                        <input type="search" placeholder="Search..." class="main-btn2 form-control" id="myInput">
+                        <input type="search" placeholder="Search..." class="main-btn2" id="myInput">
                     </div>
                 </div>
 
@@ -176,8 +177,9 @@
                         <span class="services-icon-container">
                             <img class="services-icon s-icon-1" src="images/hotel.png" alt="Hotel Icon">
                         </span>
+                        <div class="p-services-content">
                         <p><b>Accommodation</b></p>
-                        <p><small>Best accommodation facilities</small></p>
+                        <p class="small-services-content">Best accommodation facilities</p></div>
                     </button>
                 </div>
                 <div class="services-btn-container S-btn-2">
@@ -185,8 +187,11 @@
                         <span class="services-icon-container">
                             <img class="services-icon s-icon-2" src="images/map.png" alt="Map Icon">
                         </span>
+                        <div class="p-services-content">
+
                         <p><b>Local Event</b></p>
-                        <p><small>Engrossed listening, park gate sell they wear</small></p>
+                        <p class="small-services-content">Engrossed listening, park gate sell they wear</p>
+                        </div>
                     </button>
                 </div>
                 <div class="services-btn-container S-btn-3">
@@ -194,8 +199,11 @@
                         <span class="services-icon-container">
                             <img class="services-icon s-icon-3" src="images/mountain.png" alt="Mountain Icon">
                         </span>
+                        <div class="p-services-content">
+
                         <p><b>Adventure Tour</b></p>
-                        <p><small>Adventures and other activities</small></p>
+                        <p class="small-services-content">Adventures and other activities</p>
+                        </div>
                     </button>
                 </div>
                 <div class="services-btn-container S-btn-4">
@@ -203,8 +211,11 @@
                         <span class="services-icon-container">
                             <img class="services-icon s-icon-4" src="images/aroplane.png" alt="Airplane Icon">
                         </span>
+                        <div class="p-services-content">
+                        
                         <p><b>Arriving Best Flights</b></p>
-                        <p><small>Confirmation</small></p>
+                        <p class="small-services-content">Confirmation</p>
+                        </div>
                     </button>
                 </div>
             </div>
@@ -315,39 +326,16 @@
                                     <p>control for much longer.</p>
                                     <div class="social-icon">
                                         <div class="icon">
-                                            <?xml version="1.0" encoding="utf-8"?>
-                                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                                            <svg fill="none" width="800px" height="800px" viewBox="-5.5 0 32 32"
-                                                version="1.1" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M1.188 5.594h18.438c0.625 0 1.188 0.563 1.188 1.188v18.438c0 0.625-0.563 1.188-1.188 1.188h-18.438c-0.625 0-1.188-0.563-1.188-1.188v-18.438c0-0.625 0.563-1.188 1.188-1.188zM14.781 17.281h2.875l0.125-2.75h-3v-2.031c0-0.781 0.156-1.219 1.156-1.219h1.75l0.063-2.563s-0.781-0.125-1.906-0.125c-2.75 0-3.969 1.719-3.969 3.563v2.375h-2.031v2.75h2.031v7.625h2.906v-7.625z"
-                                                    fill="#000000"></path>
-                                            </svg>
-
+                                            
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                              </svg>
 
                                         </div>
                                         <div class="icon">
-                                            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-                                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                                            <svg width="800px" height="800px" viewBox="0 0 20 20" version="1.1"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <title>instagram [#167]</title>
-                                                <desc>Created with Sketch.</desc>
-                                                <defs></defs>
-                                                <g id="Page-1" stroke="none" stroke-width="1" fill="none"
-                                                    fill-rule="evenodd">
-                                                    <g id="Dribbble-Light-Preview"
-                                                        transform="translate(-340.000000, -7439.000000)" fill="#000000">
-                                                        <g id="icons" transform="translate(56.000000, 160.000000)">
-                                                            <path
-                                                                d="M289.869652,7279.12273 C288.     241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792">
-                                                            </path>
-                                                        </g>
-                                                    </g>
-                                                </g>
-                                            </svg>
-
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                                              </svg>
                                         </div>
                                         <div class="icon twitter">
                                             <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
@@ -471,7 +459,7 @@
     <script>
         // alert('Not compeleted the work \n project designer is to slow "dayyan"')
         function processing() {
-            // alert('On work \n its coming soon')
+            alert('On work \n its coming soon')
             onclick = "processing();"
         }
 

@@ -118,7 +118,7 @@
      display: inline-block;
  }
 
- .input-icon {
+ .input-icon1 {
      position: absolute;
      top: 50%;
      right: 6px;
@@ -127,8 +127,10 @@
      color: rgba(0, 0, 0, 0.747);
      background-color: #f0f0f0;
      padding: 5px;
-     padding-bottom: 2px;
-     border-radius: 20px;
+     /* padding-bottom: 2px; */
+     border-radius: 50px;
+     width: 30px;
+     height: 30px;
  }
 
  .display-main-services {
@@ -170,31 +172,38 @@
      grid-template-columns: 200px 200px;
      justify-content: center;
      align-content: center;
-     column-gap: 130px;
-     row-gap: 20px;
+     column-gap: 140px;
+     row-gap: 25px;
  }
 
  .services-btn {
      padding: 10px;
-     width: 290px;
+     width: 330px;
      text-align: start;
      border: none;
      border-radius: 50px;
      box-shadow: 0px 2px 5px rgba(209, 17, 17, 0.247);
-     height: 60px;
+     height: 80px;
      cursor: context-menu;
  }
 
  .services-btn p {
-     margin-left: 55px;
+    margin: 0px;
  }
+ .p-services-content{
+    margin-left: 60px;
+ }
+ .small-services-content{
+    font-size: 14px;
+ }
+ 
 
 
  .services-icon {
-     /* margin-top: 3px; */
-     margin-bottom: -10px;
-     height: 40px;
-     width: 40px;
+     /* margin-top: 8px; */
+     margin-bottom: -20px;
+     height: 50px;
+     width: 50px;
      padding: 4px;
      border-radius: 40px;
      cursor: cell;
@@ -260,18 +269,45 @@
      }
 
      .services-btn-container {
-         padding-left: 180px;
+         padding-left: 170px;
      }
 
      .services-btn {
-         padding: 10px;
-         text-align: start;
-         border: none;
-         border-radius: 50px;
-         box-shadow: 0px 2px 5px rgba(209, 17, 17, 0.247);
-         height: 60px;
-         cursor: context-menu;
-     }
+        padding: 10px;
+        width: 330px;
+        text-align: start;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 0px 2px 5px rgba(209, 17, 17, 0.247);
+        height: 80px;
+        cursor: context-menu;
+    }
+   
+    .services-btn p {
+       margin: 0px;
+    }
+    .p-services-content{
+       margin-left: 20px;
+    }
+    .small-services-content{
+       font-size: 14px;
+    }
+    
+   
+   
+    .services-icon {
+        /* margin-top: 8px; */
+        margin-bottom: -20px;
+        height: 50px;
+        width: 50px;
+        padding: 4px;
+        border-radius: 40px;
+        cursor: cell;
+        color: #fff;
+        /* background-color: black; */
+   
+   
+    }
 
      .S-btn-1 {
          left: -80px;
@@ -310,7 +346,9 @@
    
     .services-btn {
         padding: 10px;
-        width: 240px;
+        width: 270px;
     }
- 
+    .p-services-content{
+        margin-left: 10px;
+     }
 }

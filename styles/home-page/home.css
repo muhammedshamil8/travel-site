@@ -6,6 +6,7 @@
          font-family: 'Roboto', Arial, sans-serif;
 
      }
+     
      /* * h2{
         color: red;
      } */
@@ -35,6 +36,7 @@
          /* grid-template-rows: auto; */
          row-gap: 30px;
          overflow-x: hidden;
+    background-color: #e2e2e2;
      }
 
      @media screen and (max-width: 768px) {

@@ -2,7 +2,8 @@
 /* size 1 */
 @media screen and (max-width: 620px) {
      body {
-          /* background-color: red; */
+          background-color: #e2e2e2;
+
           display: inline;
      }
 
@@ -57,7 +58,10 @@
           font-weight: 700;
           cursor: cell;
      }
+     .left-section3 p{
+          margin: 0px;
 
+     }
      .cross-img {
           height: 23px;
           width: 23px;
@@ -66,6 +70,11 @@
      .harmbur-img {
           height: 30px;
           width: 30px;
+     }
+
+     .harmbur-img:hover,
+     .cross-img:hover {
+          background: #ddd;
      }
 
      .nav-section3 {
@@ -168,11 +177,12 @@
           width: 100px;
           margin-left: -40px;
      }
-     .experience-card-grid-parent i:last-child{
+
+     .experience-card-grid-parent i:last-child {
           right: 15px;
           /* background-color: red; */
-      
-           }
+
+     }
 
      /* display main section */
 
@@ -233,6 +243,8 @@
 
      .experience-card-grid-parent .experience-card-grid {
           grid-auto-columns: 100%;
+          gap: 10px;
+
      }
 
      .experience-card-grid-parent {
@@ -240,25 +252,16 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          gap: 10px;
      }
 
      .review-p-1 {
-          color: grey;
+          color: rgb(209, 207, 207);
           font-size: 13px;
           width: 250px;
      }
 
-     .experience-card {
-          background-color: rgb(199, 188, 188);
-          border-radius: 5px;
-          width: 350px;
-          display: flex;
-          flex-direction: column;
-          text-align: left;
 
-          /* z-index: 1; */
-          /* height: 300px; */
-     }
 
      .experience-card-logo {
           margin-top: 5px;
@@ -300,14 +303,14 @@
           position: absolute;
           top: 0;
           left: 0;
-          z-index: -1;
-      }
+          z-index: 1;
+     }
 
      .footer-card {
           grid-template-columns: 1fr;
           padding: 20px;
           /* margin: 0px; */
-          max-width: 500px;
+          max-width: 600px;
           min-width: 250px;
           position: relative;
           /* margin: 0px 50px; */
@@ -338,35 +341,38 @@
           grid-template-columns: 1fr;
           width: 100%;
      }
+
      .footer-head h2 {
           font-size: 23px;
           color: white;
           word-spacing: 5px;
-      
-      }
+          font-weight: bold;
+
+     }
 
 
 
 
-      /* signup page  */
+     /* signup page  */
 
-      .content-package-img {
+     .content-package-img {
           width: 100%;
           max-height: 500px;
-          position: relative; 
-          overflow: hidden; 
-      }
-      
-      .content-package-img img {
+          position: relative;
+          overflow: hidden;
+     }
+
+     .content-package-img img {
           width: 100%;
-          height: auto; 
+          height: auto;
           display: block;
 
-      }
-      
-      .overlay2 {
+     }
+
+     .overlay2 {
           display: none;
      }
+
      .bg-signup-container {
           opacity: 0.9;
           min-width: 100%;
@@ -376,13 +382,15 @@
           top: 0;
           right: 0;
           background-color: #ffffff;
-      }
-      .signup-body form button {
-          margin-right: 20px;
-         margin-left: -20px;
+     }
 
-      }
-      .logo-signup a{
+     .signup-body form button {
+          margin-right: 20px;
+          margin-left: -20px;
+
+     }
+
+     .logo-signup a {
           margin-top: 0px;
           top: 0px;
           display: flex;
@@ -391,15 +399,17 @@
           margin-left: -40px;
           margin-bottom: 0px;
           z-index: 2;
-      }
-      .logo-signup{
+     }
+
+     .logo-signup {
           margin-bottom: 0px;
 
-      }
-      .signup-content h2{
+     }
+
+     .signup-content h2 {
           width: 100%;
           max-width: 300px;
-      }
+     }
 }
 
 
@@ -407,10 +417,10 @@
 
 /* size 2 */
 @media (min-width: 621px) and (max-width: 769px) {
-     body {
-          /* background-color: rgb(16, 56, 185); */
+     /* body {
+          background-color: rgb(16, 56, 185);
 
-     }
+     } */
 
      header {
           display: none;
@@ -437,8 +447,9 @@
      .logo {
           display: flex;
           align-items: center;
-          justify-content: center;
           font-size: 20px;
+          justify-content: center;
+
      }
 
      .nav-section {
@@ -475,7 +486,7 @@
 
 
      .Signup-btn {
-          width: 65px;
+          width: 85px;
      }
 
      .things-to-do-head p {
@@ -491,18 +502,15 @@
 
 /* size 3 */
 @media (min-width: 768px) and (max-width: 1200px) {
-     body {
-          /* background-color: rgb(92, 206, 15); */
-     }
+     /* body {
+          background-color: rgb(92, 206, 15);
+     } */
 
-     .things-to-do-card {
-          background-color: #ffffff;
-          height: 200px;
-          width: 280px;
-     }
+   
 }
 
-@media (min-width: 768px) and (max-width: 900px) {
+
+@media (min-width: 801px) and (max-width: 999px) {
      .things-to-do-head p {
           line-height: 17px;
           font-size: 13px;
@@ -513,9 +521,10 @@
      }
 
      .things-to-do-card {
+
           background-color: #ffffff;
-          height: 200px;
-          max-width: 340px;
+          max-width: 250px;
+          height: 250px;
      }
 
 
@@ -523,7 +532,6 @@
 
 @media (min-width: 801px) and (max-width: 990px) {
      .experience-card {
-          background-color: rgb(199, 188, 188);
           border-radius: 5px;
           max-width: 340px;
           display: flex;
@@ -542,6 +550,8 @@
 
      .experience-card-grid-parent .experience-card-grid {
           grid-auto-columns: calc((100% / 2) - 9px);
+          gap: 10px;
+
      }
 
 }

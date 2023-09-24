@@ -47,7 +47,7 @@
      fill: rgb(255, 255, 255);
 }
 
-.service-things-btn svg:hover {
+.service-things-btn:hover svg{
      height: 30px;
      width: 30px;
      fill: rgb(29, 161, 79);

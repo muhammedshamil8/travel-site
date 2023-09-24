@@ -1,3 +1,6 @@
+
+
+
 /* general   styles for home page*/
 * {
     margin: 0;

@@ -105,7 +105,7 @@ text-align: center; */
     width: 80px;
     border-radius: 5px;
     border: none;
-    padding: 4px 8px;
+    padding: 5px 8px;
     font-weight: 600;
 }
 
@@ -117,6 +117,16 @@ text-align: center; */
 
 .signup-footer {
     color: rgb(0, 147, 167);
+}
+.signin-footer:hover {
+    color: rgb(0, 147, 167);
+    background-color: white;
+
+}
+
+.signup-footer:hover {
+    background-color: rgb(56, 173, 189);
+    color: white;
 }
 
 .footer-main {
@@ -200,7 +210,12 @@ text-align: center; */
 
 .footer-table td {
     color: #ddd;
+    font-weight: 550;
     font-size: 12px;
+    cursor: pointer;
+}
+.footer-table td:hover {
+    text-decoration: underline;
 }
 
 .footer-table th {

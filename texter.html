@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX Example</title>
+</head>
+<body>
+    <button id="loadContentButton">Load Content</button>
+    <div id="contentContainer"></div>
+
+    <script>
+     document.getElementById('loadContentButton').addEventListener('click', function() {
+    // Create a new XMLHttpRequest object
+    var xhr = new XMLHttpRequest();
+
+    // Configure it: GET-request for the URL /api/endpoint
+    xhr.open('GET', 'index.html', true);
+
+    // This will be called after the response is received
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            // Update the content in the contentContainer
+            document.getElementById('contentContainer').innerHTML = xhr.responseText;
+        }
+    };
+
+    // Send the request over AJAX
+    xhr.send();
+});
+
+    </script>
+</body>
+</html>

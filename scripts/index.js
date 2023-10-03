@@ -75,6 +75,7 @@ let originalContent = '';
 
 function setupSignupButtonListener() {
     // Attach the event listener to the signup button
+
     const signupButton = document.querySelectorAll('.js-signup');
     signupButton.forEach(button => {
         button.addEventListener('click', () => {
@@ -86,6 +87,7 @@ function setupSignupButtonListener() {
             }
 
             document.body.innerHTML = `
+            
                 <div class="signup-body">
     <div class="bg-signup-container">
         <img class="signup-bg" src="images/signup-bg.jpg" alt="Background Image">

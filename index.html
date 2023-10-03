@@ -8,6 +8,7 @@
 
     <title>TripolizCz</title>
     <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/home-page/home.css">
     <link rel="stylesheet" href="styles/home-page/header.css">
     <link rel="stylesheet" href="styles/home-page/section1.css">
@@ -301,7 +302,8 @@
         </section>
         <!-- footer of the page -->
         <footer>
-            <img class="footer-bg" src="images/footer.png" alt="background-image">
+            <img class="footer-bg" src="images/footer.png" alt="background-image" >
+            <!-- loading="lazy" -->
             <div class="footer-content">
                 <div class="footer-card">
                     <div class="footer-card-blur">
@@ -457,6 +459,12 @@
         </ul>
 
     </nav>
+  
+
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+    <script src="scripts/general.js"></script>
     <script>
         // alert('Not compeleted the work \n project designer is to slow "dayyan"')
         function processing() {
